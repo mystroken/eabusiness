@@ -1,0 +1,18 @@
+{
+	"extends": ["eslint:recommended", "airbnb"],
+	"env": {
+		"browser": true,
+		"es6": true,
+		"commonjs": true
+	},
+	"globals": {
+		"document": true,
+		"google": true
+	},
+	"rules": {
+		"arrow-parens": ["error", "as-needed"],
+		"func-names": ["error", "never"],
+		"no-param-reassign": ["error", { "props": false }],
+		// "object-curly-newline": ["error", { "ObjectExpression": "never" }]
+	}
+}

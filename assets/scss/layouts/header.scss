@@ -1,0 +1,59 @@
+$topbar-height: 72px !default;
+$navbar-height: 89px !default;
+
+body {
+  // padding-top: $topbar-height + $navbar-height;
+}
+
+.site-topbar {
+  // height: $topbar-height;
+
+
+  .search-form {
+    width: 100%;
+    color: #fff;
+    margin-right: $spacer;
+    @include media-breakpoint-up('lg') {
+      max-width: 360px;
+      margin-right: 5rem;
+    }
+  }
+
+  .search-form__control {
+    background: transparent;
+    color: $gray-200;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #fff;
+    box-shadow: none;
+    @include media-breakpoint-up('lg') {
+      height: 100%;
+      padding-top: .45rem !important;
+      padding-bottom: .45rem !important;
+    }
+
+    &:focus {
+      // background: rgba(#fff, .1);
+      color: #fff;
+    }
+  }
+
+  .search-form__btn {
+    color: #fff;
+  }
+}
+
+.site-navbar {
+  // height: $navbar-height;
+  background-color: #fcfcfc;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
+}
+
+.site-topbar__button {
+  min-width: 100px;
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+  @include media-breakpoint-up('lg') {
+    margin-right: 2.25rem;
+  }
+}

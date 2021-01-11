@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,600;1,600&display=swap');
+@import "bootstrap/style.scss";
+
+@import "./variables.scss";
+@import "./layouts/general.scss";
+
+// Components
+@import "./components/list.scss";
+@import "./components/grid.scss";
+@import "./components/button.scss";
+@import "./components/card.scss";
+@import "./components/hero.scss";
+@import "./components/testimony.scss";
+@import "./components/search-form.scss";
+
+// Layouts
+@import "./layouts/header.scss";
+@import "./layouts/navigation.scss";
+@import "./layouts/footer.scss";
+@import "./layouts/auth.scss";

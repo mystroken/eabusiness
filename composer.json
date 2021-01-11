@@ -1,0 +1,19 @@
+{
+    "name": "mystroken/o2itty",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": "^7.1",
+        "league/plates": "3.*",
+        "voku/html-min": "^4.0",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}

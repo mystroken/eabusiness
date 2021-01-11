@@ -1,0 +1,17 @@
+dl,
+ol,
+ul {
+  padding-left: 1em;
+  list-style-position: outside;
+  text-align: left;
+  font-size: .875rem;
+
+  &.list-primary { list-style-image: url(/assets/images/ul-list-disc.svg); }
+  &.list-check { list-style-image: url(/assets/images/ul-list-check.svg); }
+}
+
+.list li {
+  padding-left: .75rem;
+  margin-bottom: .875rem;
+  &::marker { width: 1rem; }
+}

@@ -1,0 +1,23 @@
+
+.testimony {
+  @extend .text-center;
+
+  &__avatar { max-width: 128px; }
+
+  &__content,
+  &__author {
+    @include media-breakpoint-up('lg') {
+      padding: 0 13%;
+    }
+  }
+
+  &__content {
+    font-size: 1.625rem;
+    margin-top: 2rem;
+  }
+
+  &__author {
+    @extend .text-muted;
+    margin-top: 2.5rem;
+  }
+}

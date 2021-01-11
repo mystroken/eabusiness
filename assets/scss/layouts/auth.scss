@@ -1,0 +1,17 @@
+.auth-layout {
+    @extend .container;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    @include media-breakpoint-up('md') {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    @include media-breakpoint-up('lg') {
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+
+    .form-container {
+        margin-top: 2.875rem;
+    }
+}
