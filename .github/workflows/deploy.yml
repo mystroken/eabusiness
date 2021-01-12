@@ -25,7 +25,7 @@ jobs:
         script: |
           cd ${{ secrets.PROJECT_PATH  }}
           git pull
-		  composer install
+          composer install
           export NVM_DIR=~/.nvm
           source ~/.nvm/nvm.sh
           npm install
