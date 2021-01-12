@@ -1,7 +1,8 @@
 # Configuration files with possibly sensitive information
 .htaccess
-./public/css/style.css
-./public/js/app.js
+public/css/style.css
+public/js/app.js
+public/**/*.map
 
 # Files and folders related to build/test tools
 /phpunit.xml
