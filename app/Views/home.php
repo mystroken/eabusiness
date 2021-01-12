@@ -1,4 +1,6 @@
-	<?php $this->layout('layouts/base', []) ?>
+<?php 
+
+$this->layout('layouts/base', []) ?>
 
 
 <div id="page" class="home-page page" data-key="home">
@@ -14,11 +16,14 @@
 				Comprendre la culture, les mentalités et le monde des affaires en Afrique centrale est primordial pour reussir.
 			</h1>
 			<div class="hero__copy">
-				E&A Business Consulting vous accompagne à toutes les étapes du développement de votre business en Afrique Centrale.
+				E&A Business Consulting vous accompagne à toutes les étapes du développement de votre business en Afrique centrale.
 			</div>
 			<div class="hero__actions">
 				<a class="btn btn-secondary" href="#">En savoir plus</a>
 			</div>
 		</div>
 	</div>
+	<section class="section"></section>
+	<section class="section"></section>
+	<section class="section"></section>
 </div>

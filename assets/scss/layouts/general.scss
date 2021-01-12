@@ -18,3 +18,12 @@ img {
 .page {
   @extend .container;
 }
+
+.section {
+  @extend .w-100;
+  height: 80vh;
+  background: lightsalmon;
+  &:nth-child(even) {
+    background: lightseagreen;
+  }
+}
