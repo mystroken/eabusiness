@@ -24,7 +24,7 @@ abstract class Model
 		static $db = null;
 
 		if ($db === null) {
-			$db = new PDO('mysql:host=o2itty_db;dbname='.getenv('MYSQL_DATABASE'),getenv('MYSQL_USER'), getenv('MYSQL_PASSWORD'));
+			$db = new PDO('mysql:host=eabusiness_db;dbname='.getenv('MYSQL_DATABASE'),getenv('MYSQL_USER'), getenv('MYSQL_PASSWORD'));
 			$db->query('SET NAMES utf8mb4');
 			$db->query('SET CHARACTER_SET utf8mb4_unicode_ci');
 

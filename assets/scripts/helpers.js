@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const sass = require('node-sass');
+const moduleImporter = require('sass-module-importer');
 const config = require('./../config.js');
 const postcss = require('./common/postscss');
 const rollup = require('./common/rollup');
@@ -20,7 +21,8 @@ function compileCss(o) {
     file: config.css.entry,
     outputStyle: 'expanded',
     outFile: config.css.dest,
-    sourceMap: true
+    sourceMap: true,
+    importer: moduleImporter()
   }, (error, result) => {
     if (!error) {
       fs.writeFile(config.css.dest, result.css, function(err){
@@ -34,6 +36,8 @@ function compileCss(o) {
           });
         }
       });
+    } else {
+      console.log(`An error occured when compiling css ${error}`);
     }
   });
 }

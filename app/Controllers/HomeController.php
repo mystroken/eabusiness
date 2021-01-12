@@ -4,7 +4,6 @@
 namespace App\Controllers;
 
 use App\Controller;
-use App\Models\Service;
 
 class HomeController extends Controller
 {

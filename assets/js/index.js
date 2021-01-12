@@ -53,14 +53,13 @@ class App {
     let transitionLock = false;
     const Transition = Barba.BaseTransition.extend({
       start() {
-        transitionLock = true;
-        menu.close();
-        loader
-          .show()
-          .then(() => {
-            app.p.unmount();
-            transitionLock = false;
-          });
+        // transitionLock = true;
+        // loader
+        //   .show()
+        //   .then(() => {
+        //     app.p.unmount();
+        //     transitionLock = false;
+        //   });
 
         this.newContainerLoading.then(this.finish.bind(this));
       },
@@ -78,14 +77,13 @@ class App {
           app.p
             .setUp()
             .finally(() => {
-              loader.hide();
+              // loader.hide();
               app.p.mount();
-              cursor.interactionManager.on();
             });
         }
       },
     });
-    Barba.Pjax.Dom.wrapperId = 'app';
+    Barba.Pjax.Dom.wrapperId = 'main';
     Barba.Pjax.Dom.containerClass = 'page';
     Barba.Pjax.getTransition = () => Transition;
     Barba.Pjax.start();

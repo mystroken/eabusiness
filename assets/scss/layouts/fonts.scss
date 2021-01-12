@@ -1,0 +1,20 @@
+@font-face {
+	font-family: 'Avenir Next';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+  src: local('Avenir Next Regular'),
+       local('Avenir-Next-Regular'),
+       url(../fonts/avenir-next-regular.woff) format('woff');
+}
+
+
+@font-face {
+	font-family: 'Avenir Next';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+  src: local('Avenir Next Bold'),
+       local('Avenir-Next-Bold'),
+       url(../fonts/avenir-next-bold.woff) format('woff');
+}

@@ -52,8 +52,6 @@ $app = require __DIR__ . '/../bootstrap.php';
 
 $app->get('/', 'HomeController@index')->name('home');
 $app->get('/a-propos/', 'AboutController@index')->name('about');
-$app->get('/projets', 'ProjectController@index')->name('projects.all');
-$app->get('/projets/{slug}/', 'ProjectController@show')->name('projects.show');
 
 /*
 |---------------------------------------------------------
@@ -66,22 +64,3 @@ $app->get('/projets/{slug}/', 'ProjectController@show')->name('projects.show');
 */
 
 $app->run();
-
-
-//switch ($request) {
-//	case '/' :
-//		require __DIR__ . '/../resources/views/home.php';
-//		break;
-//	case '' :
-//		require __DIR__ . '/../resources/views/home.php';
-//		break;
-//	case '/a-propos' :
-//		require __DIR__ . '/../resources/views/about.php';
-//		break;
-//	case '/projets' :
-//		require __DIR__ . '/../resources/views/projects/home.php';
-//		break;
-//	default:
-//		require __DIR__ . '/../resources/views/404.php';
-//		break;
-//}

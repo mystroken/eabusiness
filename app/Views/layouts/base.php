@@ -9,52 +9,129 @@
 	<meta name="description" content="<?=$this->e($description ?? '')?>">
 
 	<!-- Favicons -->
-	<link rel="apple-touch-icon" sizes="57x57" href="/fav/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="/fav/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="/fav/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="/fav/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="/fav/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="/fav/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="/fav/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="/fav/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192"  href="/fav/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/fav/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png">
-	<link rel="manifest" href="/fav/manifest.json">
-	<meta name="msapplication-config" content="/fav/browserconfig.xml">
-	<meta name="msapplication-TileColor" content="#fafafa">
-	<meta name="msapplication-TileImage" content="/fav/ms-icon-144x144.png">
-	<meta name="theme-color" content="#fafafa">
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="msapplication-TileColor" content="#002F61">
+	<meta name="theme-color" content="#002F61">
 
 	<style><?php include path('public/css/style.css'); ?></style>
-
 </head>
-<body role="document" itemscope itemtype="https://schema.org/WebPage">
+<body>
 	<div id="site" role="document" itemscope="" itemtype="http://schema.org/WebPage">
-		<section id="site-header" class="site-header">
-			<header id="header" class="header" role="banner" itemscope="" itemtype="http://schema.org/WPHeader">
-				<div class="header__wrapper">
+		<header id="header" class="header" role="banner" itemscope="" itemtype="http://schema.org/WPHeader">
+			<div class="header__inner">
+				<div class="header__left">
+					<h1 class="header__brand" itemscope="" itemtype="http://schema.org/Organization">
+						<a href="/" itemprop="url" class="header__logo">
+							<img src="/img/e&a_business-consulting.png" itemprop="logo" alt="E&A Business Consulting">
+						</a>
+					</h1>
+					<nav id="navigation-primary" class="navigation-primary" role="navigation" aria-label="Navigation principale">
+						<ul class="menu" itemscope itemtype="https://schema.org/SiteNavigationElement">
+							<li class="menu-item" itemprop="name">
+								<a class="menu-link" itemprop="url" href="/">Accueil</a>
+							</li>
+							<li class="menu-item" itemprop="name">
+								<a class="menu-link" itemprop="url" href="/a-propos">Qui sommes-nous?</a>
+							</li>
+							<li class="menu-item" itemprop="name">
+								<a class="menu-link" itemprop="url" href="#">Notre expertise</a>
+							</li>
+							<li class="menu-item" itemprop="name">
+								<a class="menu-link" itemprop="url" href="#">Nos partenaires</a>
+							</li>
+							<li class="menu-item" itemprop="name">
+								<a class="menu-link" itemprop="url" href="#">Évènements</a>
+							</li>
+						</ul>
+					</nav>
 				</div>
-			</header>
-<!--			<nav id="handheld-nav" class="handheld-navigation" role="navigation" aria-label="Navigation mobile">-->
-<!--				<ul id="menu-menu-principal-1" class="menu"><li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-68"><a href="http://localhost:8080/collections/clothing/">Clothing</a></li>-->
-<!--					<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-69"><a href="http://localhost:8080/collections/clothing/tshirts/">Tshirts</a></li>-->
-<!--					<li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-67"><a href="http://localhost:8080/collections/clothing/hoodies/">Hoodies</a></li>-->
-<!--				</ul>-->
-<!--			</nav>-->
-		</section>
-		<section id="site-content" class="site-content">
-			<main id="main" class="main" role="main" itemprop="mainContentOfPage">
-				<?=$this->section('content')?>
-			</main>
+				<div class="header__right">
+					<div>+237 222 002 222</div>
+					<a href="#" class="btn btn-primary">Nous contacter</a>
+				</div>
+			</div>
+		</header>
 
-			<footer id="footer" class="footer" role="contentinfo" itemscope="" itemtype="http://schema.org/WPFooter">
-				<div class="footer__inner">
+		<main id="main" class="main" role="main" itemprop="mainContentOfPage">
+			<?=$this->section('content')?>
+		</main>
+
+		<footer id="footer" class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+			<div class="footer__logo text-center text-lg-left">
+				<img src="/img/e&a-business-consulting-light.png" alt="E&A Business Consulting">
+			</div>
+			<div class="footer__content d-lg-flex text-center text-lg-left">
+				<div class="footer__info mx-auto mx-lg-0" itemscope itemtype="https://schema.org/Organization">
+					<span itemprop="name">E&A Business Consulting</span>
+					<p>
+						Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo.
+					</p>
+					<span itemprop="telephone">(+237) 242 68 53 00 </span><br>
+					<span itemprop="email">info(at)eabusiness.africa</span>
 				</div>
-			</footer>
-		</section>
+				<nav class="navigation-secondary d-md-flex justify-content-center w-100 mt-5 mt-lg-0">
+					<div class="footer__nav__item">
+						<h4 class="footer__nav__title">Menu #1</h4>
+						<ul class="footer__menu menu menu-1">
+							<li class="menu-item">
+								<a href="#" class="menu-link">Link 1</a>
+							</li>
+							<li class="menu-item">
+								<a href="#" class="menu-link">Element 2</a>
+							</li>
+							<li class="menu-item">
+								<a href="#" class="menu-link">Link 3</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__nav__item">
+						<h4 class="footer__nav__title">Menu #2</h4>
+						<ul class="footer__menu menu menu-1">
+							<li class="menu-item">
+								<a href="#" class="menu-link">Link 1</a>
+							</li>
+							<li class="menu-item">
+								<a href="#" class="menu-link">Element 2</a>
+							</li>
+							<li class="menu-item">
+								<a href="#" class="menu-link">Link 3</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__nav__item">
+						<h4 class="footer__nav__title">Menu #3</h4>
+						<ul class="footer__menu menu menu-1">
+							<li class="menu-item">
+								<a href="#" class="menu-link">Link 1</a>
+							</li>
+							<li class="menu-item">
+								<a href="#" class="menu-link">Element 2</a>
+							</li>
+							<li class="menu-item">
+								<a href="#" class="menu-link">Link 3</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<div class="footer__copyright">
+				Copyright © 2021 E&A Business Consulting  — Site conçu par <a href="https://www.flexyla.com">FlexyLa Studio</a>
+			</div>
+		</footer>
 	</div>
 	<div id="loader" class="loader"></div>
 	<script><?php include path('public/js/app.js'); ?></script>

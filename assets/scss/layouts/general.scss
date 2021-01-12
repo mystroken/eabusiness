@@ -1,7 +1,20 @@
-body {
-  letter-spacing: 0.3px;
+$min_width: 320px;
+$max_width: 1200px;
+$min_font: 14px;
+$max_font: 16px;
+
+html {
+  @include fluid-type($min_width, $max_width, $min_font, $max_font);
+  text-rendering: optimizeLegibility;
+  // -webkit-font-smoothing: antialiased;
 }
 
-.container-fluid {
-  max-width: 1400px;
+video,
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.page {
+  @extend .container;
 }
