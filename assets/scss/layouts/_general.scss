@@ -19,12 +19,16 @@ img {
   @extend .container;
 }
 
-.section {
-  @extend .w-100;
-  height: 80vh;
-  background: lightseagreen;
-  &:nth-child(even) {
-    background: lightsalmon;
-    color: #fff;
+.contact-wrap {
+  @include media-breakpoint-up('lg') {
+    max-width: 414px;
+  }
+
+  svg {
+    fill: $secondary;
+  }
+
+  a {
+    // font-weight: bold;
   }
 }

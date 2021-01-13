@@ -1,5 +1,5 @@
 // Load all modules from the folder and save them in the variable
-import Barba from 'barba.js';
+// import Barba from 'barba.js';
 import * as modules from './modules';
 import Pages from './pages';
 
@@ -49,44 +49,44 @@ class App {
     }
 
     // Barba js
-    const app = this;
-    let transitionLock = false;
-    const Transition = Barba.BaseTransition.extend({
-      start() {
-        // transitionLock = true;
-        // loader
-        //   .show()
-        //   .then(() => {
-        //     app.p.unmount();
-        //     transitionLock = false;
-        //   });
+    // const app = this;
+    // let transitionLock = false;
+    // const Transition = Barba.BaseTransition.extend({
+    //   start() {
+    //     // transitionLock = true;
+    //     // loader
+    //     //   .show()
+    //     //   .then(() => {
+    //     //     app.p.unmount();
+    //     //     transitionLock = false;
+    //     //   });
 
-        this.newContainerLoading.then(this.finish.bind(this));
-      },
+    //     this.newContainerLoading.then(this.finish.bind(this));
+    //   },
 
-      finish() {
-        if (transitionLock) {
-          requestAnimationFrame(this.finish.bind(this));
-        } else {
-          // Remove the old container.
-          this.done();
-          // Get the current page
-          // Set it up
-          // Hide the loader and mount the page.
-          app.p = app.getCurrentPage(this.newContainer);
-          app.p
-            .setUp()
-            .finally(() => {
-              // loader.hide();
-              app.p.mount();
-            });
-        }
-      },
-    });
-    Barba.Pjax.Dom.wrapperId = 'main';
-    Barba.Pjax.Dom.containerClass = 'page';
-    Barba.Pjax.getTransition = () => Transition;
-    Barba.Pjax.start();
+    //   finish() {
+    //     if (transitionLock) {
+    //       requestAnimationFrame(this.finish.bind(this));
+    //     } else {
+    //       // Remove the old container.
+    //       this.done();
+    //       // Get the current page
+    //       // Set it up
+    //       // Hide the loader and mount the page.
+    //       app.p = app.getCurrentPage(this.newContainer);
+    //       app.p
+    //         .setUp()
+    //         .finally(() => {
+    //           // loader.hide();
+    //           app.p.mount();
+    //         });
+    //     }
+    //   },
+    // });
+    // Barba.Pjax.Dom.wrapperId = 'main';
+    // Barba.Pjax.Dom.containerClass = 'page';
+    // Barba.Pjax.getTransition = () => Transition;
+    // Barba.Pjax.start();
   }
 
   getCurrentPage(page) {

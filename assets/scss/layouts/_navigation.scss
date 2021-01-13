@@ -5,6 +5,11 @@
 }
 
 .navigation-primary {
+  display: none;
+  @include media-breakpoint-up('lg') {
+    display: flex;
+  }
+
   .menu {
     @extend .d-flex;
   }

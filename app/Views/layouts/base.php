@@ -61,7 +61,7 @@
 				</div>
 				<div class="header__right">
 					<div>+237 222 002 222</div>
-					<a href="#" class="btn btn-primary">Nous contacter</a>
+					<a href="/contactez-nous" class="btn btn-primary">Nous contacter</a>
 				</div>
 			</div>
 		</header>
@@ -129,7 +129,7 @@
 				</nav>
 			</div>
 			<div class="footer__copyright">
-				Copyright © 2021 E&A Business Consulting  — Site conçu par <a href="https://www.flexyla.com">FlexyLa Studio</a>
+				Copyright © 2021 E&A Business Consulting  — Site conçu par <a target="_blank" href="https://www.flexyla.com">FlexyLa Studio</a>
 			</div>
 		</footer>
 	</div>

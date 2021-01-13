@@ -34,6 +34,8 @@ function compileCss(o) {
             dest: config.css.dest,
             cb: _ => console.log('CSS Compiled !')
           });
+        } else {
+          console.log(`Cannot write css — ${error}`);
         }
       });
     } else {

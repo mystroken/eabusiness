@@ -1,7 +1,7 @@
 {
   "name": "eabusiness",
   "version": "1.0.0",
-  "description": "",
+  "description": "The E&A Business Consulting website",
   "author": "Mystro Ken <mystroken@gmail.com>",
   "license": "ISC",
   "main": "index.js",

@@ -52,6 +52,7 @@ $app = require __DIR__ . '/../bootstrap.php';
 
 $app->get('/', 'HomeController@index')->name('home');
 $app->get('/a-propos/', 'AboutController@index')->name('about');
+$app->get('/contactez-nous', 'ContactController@index')->name('contact');
 
 /*
 |---------------------------------------------------------
