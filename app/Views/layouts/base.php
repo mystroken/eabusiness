@@ -51,7 +51,7 @@
 								<a class="menu-link" itemprop="url" href="#">Notre expertise</a>
 							</li>
 							<li class="menu-item" itemprop="name">
-								<a class="menu-link" itemprop="url" href="#">Nos partenaires</a>
+								<a class="menu-link" itemprop="url" href="/nos-partenaires">Nos partenaires</a>
 							</li>
 							<li class="menu-item" itemprop="name">
 								<a class="menu-link" itemprop="url" href="#">Évènements</a>
