@@ -1,1 +1,285 @@
-!function(){"use strict";function t(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}function e(t,e){for(var n=0;n<e.length;n++){var r=e[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(t,r.key,r)}}function n(t,n,r){return n&&e(t.prototype,n),r&&e(t,r),t}function r(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function");t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,writable:!0,configurable:!0}}),e&&u(t,e)}function o(t){return(o=Object.setPrototypeOf?Object.getPrototypeOf:function(t){return t.__proto__||Object.getPrototypeOf(t)})(t)}function u(t,e){return(u=Object.setPrototypeOf||function(t,e){return t.__proto__=e,t})(t,e)}function i(t,e){return!e||"object"!=typeof e&&"function"!=typeof e?function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(t):e}function c(t){var e=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],(function(){}))),!0}catch(t){return!1}}();return function(){var n,r=o(t);if(e){var u=o(this).constructor;n=Reflect.construct(r,arguments,u)}else n=r.apply(this,arguments);return i(this,n)}}var f=Object.freeze({__proto__:null}),a=function(){function e(n){t(this,e),this.a=n,this.m={}}return n(e,[{key:"setUp",value:function(){return Promise.resolve()}},{key:"mount",value:function(){throw new TypeError("".concat(this.toString(),": You must implement the mount method."))}},{key:"unmount",value:function(){var t=this;this.clean(),Object.keys(this.m).forEach((function(e){return t.m[e].off()}))}},{key:"init",value:function(t){var e=this;Object.keys(t).forEach((function(n){e.m[n]=t[n](e)}))}},{key:"clean",value:function(){}},{key:"pause",value:function(){console.info("This page does not implement pause function")}},{key:"resume",value:function(){console.info("This page does not implement resume function")}}]),e}(),s=Object.freeze({__proto__:null}),l=function(e){r(u,e);var o=c(u);function u(){return t(this,u),o.apply(this,arguments)}return n(u,[{key:"mount",value:function(){this.init(s)}},{key:"clean",value:function(){}},{key:"pause",value:function(){}},{key:"resume",value:function(){}}]),u}(a),p=Object.freeze({__proto__:null}),h=function(e){r(u,e);var o=c(u);function u(){return t(this,u),o.apply(this,arguments)}return n(u,[{key:"mount",value:function(){this.init(p)}},{key:"clean",value:function(){}}]),u}(a),y={home:function(t){return new l(t)},about:function(t){return new h(t)},contact:function(t){return new h(t)}},v=new(function(){function e(){t(this,e),this.m={},this.p=null,this.d=null}return n(e,[{key:"init",value:function(){var t=this;Object.keys(f).forEach((function(e){t.m[e]=f[e](t)})),this.p=this.getCurrentPage(document.querySelector("#page"))}},{key:"run",value:function(){var t=this;this.init(),this.p&&this.p.setUp().finally((function(){t.p.mount()}))}},{key:"getCurrentPage",value:function(t){var e=t.getAttribute("data-key");if(y.hasOwnProperty(e))return y[e](this);throw new TypeError("This page is not registered.")}}]),e}());v.run(),window.app=v}();
+(function () {
+  'use strict';
+
+  // Import a module (eg modals) and export it directly.
+  // Only serves to bundle all the modules under one file.
+  // This makes it easy to rebuild through all modules.
+  // export { default as c2d } from './canvas';
+  // export { default as cursor } from './cursor';
+  // export { default as gl } from './gl';
+  // export { default as loader } from './loader';
+  // export { default as menu } from './menu';
+
+  var modules = /*#__PURE__*/Object.freeze({
+    __proto__: null
+  });
+
+  /* eslint-disable no-console */
+  /* eslint-disable class-methods-use-this */
+  class Page {
+    /**
+     * @constructor
+     * @param {object} app The current app.
+     */
+    constructor(app) {
+      // Store the current app in the page.
+      this.a = app;
+      // Store the modules in the app.
+      this.m = {};
+    }
+
+    /**
+     * The operation to do before
+     * mounting the page.
+     * @returns {Promise}
+     */
+    setUp() {
+      return Promise.resolve();
+    }
+
+    /**
+     * When the page is mounted.
+     * @abstract
+     */
+    mount() {
+      throw new TypeError(`${this.toString()}: You must implement the mount method.`);
+    }
+
+
+    /**
+     * Before unmounting the page.
+     * NEVER CALL DIRECTLY
+     *
+     * If you want to do some operations before the unmount,
+     * Please consider using the clean method instead.
+     */
+    unmount() {
+      // Call the clean operations of
+      // specializations first.
+      // For turning off the parent app modules.
+      this.clean();
+
+      // We should off all our modules.
+      Object.keys(this.m).forEach(key => this.m[key].off());
+    }
+
+    /**
+     * Init the page.
+     *
+     * At the init stage we
+     * should first init all necessary
+     * modules.
+     */
+    init(modules) {
+      // Iterate through all modules, execute each module and
+      // submit the page (this) via Dependency Injection.
+      Object.keys(modules).forEach(key => {
+        this.m[key] = modules[key](this);
+      });
+    }
+
+    /**
+     * Clean the app
+     *
+     * Since each app can be unmounted
+     * We should allows a way to clean the memory.
+     *
+     * Consider using this method if you want to
+     * do something specific on ummounting
+     * (rather than overriding the unmount method).
+     *
+     * For turning off the parent app modules.
+     */
+    clean() {}
+
+    /**
+     * Pause the page.
+     * When we open the menu,
+     * we need to momently pause activities
+     * inside the page.
+     */
+    pause() {
+      console.info('This page does not implement pause function');
+    }
+
+    /**
+     * After pausing a page,
+     * We need to resume the page.
+     */
+    resume() {
+      console.info('This page does not implement resume function');
+    }
+  }
+
+  // Import a module (eg modals) and export it directly.
+  // Only serves to bundle all the modules under one file.
+  // This makes it easy to rebuild through all modules.
+  // export { default as scroll } from './scroll';
+  // export { default as sslider } from './sslider';
+
+  var modules$1 = /*#__PURE__*/Object.freeze({
+    __proto__: null
+  });
+
+  /* eslint-disable no-restricted-syntax */
+
+  class HomePage extends Page {
+
+
+    mount() {
+
+      // Init all the necessary modules.
+      this.init(modules$1);
+    }
+
+    clean() {
+    }
+
+    /**
+     * When the menu is displayed.
+     */
+    pause() {
+    }
+
+    /**
+     * When the menu is closed.
+     */
+    resume() {
+    }
+  }
+
+  // Import a module (eg modals) and export it directly.
+  // Only serves to bundle all the modules under one file.
+  // This makes it easy to rebuild through all modules.
+  // export { default as explorer } from './explorer';
+
+  var modules$2 = /*#__PURE__*/Object.freeze({
+    __proto__: null
+  });
+
+  class AboutPage extends Page {
+    mount() {
+      // Init all the necessary modules.
+      this.init(modules$2);
+    }
+
+    clean() {
+    }
+  }
+
+  var Pages = {
+    home: app => new HomePage(app),
+    about: app => new AboutPage(app),
+    contact: app => new AboutPage(app),
+  };
+
+  // Load all modules from the folder and save them in the variable
+
+
+  class App {
+    constructor() {
+      // Store global modules
+      // in the app.
+      this.m = {};
+
+      // Store the current page.
+      this.p = null;
+
+      // Store informations about the current device.
+      this.d = null;
+    }
+
+    init() {
+
+      // Iterate through all modules, execute each module and
+      // submit the app (this) via Dependency Injection.
+      Object.keys(modules).forEach(key => {
+        this.m[key] = modules[key](this);
+      });
+
+      // Get the current page.
+      this.p = this.getCurrentPage(document.querySelector('#page'));
+    }
+
+    /**
+     * Runs the application.
+     */
+    run() {
+      // Initialize the app and its modules.
+      this.init();
+
+      // Turn on modules
+      // const { cursor } = this.m;
+
+      // Now we can mount the current page.
+      if (this.p) {
+        this.p
+          .setUp()
+          .finally(() => {
+            this.p.mount();
+          });
+      }
+
+      // Barba js
+      // const app = this;
+      // let transitionLock = false;
+      // const Transition = Barba.BaseTransition.extend({
+      //   start() {
+      //     // transitionLock = true;
+      //     // loader
+      //     //   .show()
+      //     //   .then(() => {
+      //     //     app.p.unmount();
+      //     //     transitionLock = false;
+      //     //   });
+
+      //     this.newContainerLoading.then(this.finish.bind(this));
+      //   },
+
+      //   finish() {
+      //     if (transitionLock) {
+      //       requestAnimationFrame(this.finish.bind(this));
+      //     } else {
+      //       // Remove the old container.
+      //       this.done();
+      //       // Get the current page
+      //       // Set it up
+      //       // Hide the loader and mount the page.
+      //       app.p = app.getCurrentPage(this.newContainer);
+      //       app.p
+      //         .setUp()
+      //         .finally(() => {
+      //           // loader.hide();
+      //           app.p.mount();
+      //         });
+      //     }
+      //   },
+      // });
+      // Barba.Pjax.Dom.wrapperId = 'main';
+      // Barba.Pjax.Dom.containerClass = 'page';
+      // Barba.Pjax.getTransition = () => Transition;
+      // Barba.Pjax.start();
+    }
+
+    getCurrentPage(page) {
+      const key = page.getAttribute('data-key');
+
+      // eslint-disable-next-line no-prototype-builtins
+      if (Pages.hasOwnProperty(key)) {
+        /*eslint-disable-line */
+        return Pages[key](this);
+      }
+
+      throw new TypeError('This page is not registered.');
+    }
+  }
+
+  // We only have one app, so we can instantly create an instance.
+  const app = new App();
+  app.run();
+
+  // optionally: save the app in Window,
+  // so that we can easily access it from the Browser Console for debugging purposes.
+  window.app = app;
+
+}());
