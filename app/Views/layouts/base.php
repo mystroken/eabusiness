@@ -48,7 +48,7 @@
 								<a class="menu-link" itemprop="url" href="/a-propos">Qui sommes-nous?</a>
 							</li>
 							<li class="menu-item" itemprop="name">
-								<a class="menu-link" itemprop="url" href="#">Notre expertise</a>
+								<a class="menu-link" itemprop="url" href="/nos-expetises">Notre expertise</a>
 							</li>
 							<li class="menu-item" itemprop="name">
 								<a class="menu-link" itemprop="url" href="/nos-partenaires">Nos partenaires</a>
