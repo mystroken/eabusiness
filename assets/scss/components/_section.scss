@@ -1,28 +1,8 @@
 .section {
-    margin: 0 auto;
-    text-align: start;
-    padding-top: 168px;
+  margin: 0;
+  padding: 8rem 0;
 
-    // &__content{
-    // }
-
-&__title{
-    max-width: 630px;
-    font-size: 40px;
-    margin: 0 auto;
-    }
-    &__subtitle{
-        margin: 0 auto;
-        padding: 33px 0 32px 0;
-        max-width: 630px;
-    }
-    &__liste{
-        max-width: 630px;
-        margin: 0 auto;
-    }
-    &__pictures{
-        margin: 0 auto;
-        padding-top: 89px;
-        max-width: 630px;
-    }
+  &__inner {
+    @extend .container;
+  }
 }

@@ -1,7 +1,9 @@
-.menu {
+.menu,
+.menu-item {
   @extend .m-0;
   @extend .p-0;
   list-style: none;
+  background: none;
 }
 
 .navigation-primary {

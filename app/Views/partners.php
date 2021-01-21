@@ -1,6 +1,6 @@
 <?php
 
-$this->layout('layouts/base', []) ?>
+$this->layout('layouts/base', ['title' => 'Nos partenaires']) ?>
 
 <div id="page" class="partners-page page" data-key="partners">
 	<div class="hero centered">
@@ -10,18 +10,14 @@ $this->layout('layouts/base', []) ?>
 		</div>
 		<div class="hero__content">
 			<h1 class="hero__title">Nos partenaires</h1>
-			<div class="hero__copy">
-				Une question? Un conseil? Nous sommes disposés à répondre à chacune de vos préoccupations.
-			</div>
+			<!-- <div class="hero__copy"></div> -->
 		</div>
 	</div>
 
 	<section class="section">
 		<div class="section__inner">
 			<div class="content">
-				<h1 class="content__title">
-					Un carnet de consultants ayant fait leurs preuves
-				</h1>
+				<h1 class="content__title">Un carnet de consultants ayant fait leurs preuves</h1>
 				<div class="content__body">
 					<p>E&A Business Consulting dispose d’une liste de référence de partenaires de choix dont l’expertise
 						pourrait être nécessaire pendant l’exécution de certains de nos mandats. Nous avons travaillé avec eux à
@@ -44,9 +40,7 @@ $this->layout('layouts/base', []) ?>
 	<section class="section">
 		<div class="section__inner">
 			<div class="content">
-				<h1 class="content__title">
-					Ils nous font confiance
-				</h1>
+				<h1 class="content__title">Ils nous font confiance</h1>
 				<div class="content__body">
 					<div class="d-flex">
 						<img src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg" alt="">
