@@ -58,4 +58,3 @@ $this->layout('layouts/base', []) ?>
 		</div>
 	</section>
 </div>
-</div>
