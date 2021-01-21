@@ -3,18 +3,16 @@
 $this->layout('layouts/base', []) ?>
 
 <div id="page" class="partners-page page" data-key="partners">
-    <div class="">
-    	<div class="hero">
-		    <div class="hero__bg">
-		    	<img class="hero__image" src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg" alt="Comprendre la culture, les mentalités et le monde des affaires en Afrique centrale est primordial pour reussir.">
-		    </div>
-		    <div class="hero__content">
-		    	<h1 class="hero__title">
-		    		Nos partenaires
-		    	</h1>
-		    </div>
-	    </div>
-	<br><br><br><br>
+    <div class="hero">
+	  <div class="hero__bg">
+             <img class="hero__image" src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg" alt="Comprendre la culture, les mentalités et le monde des affaires en Afrique centrale est primordial pour reussir.">
+		</div>
+		<div class="hero__content">
+		   	<h1 class="hero__title">
+		   		Nos partenaires
+		   	</h1>
+		</div>
+     </div>
      <div class="section">
          <section class="section__content">
              <h1 class="section__title">
