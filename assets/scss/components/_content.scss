@@ -11,10 +11,23 @@
     margin: 2.063rem 0 1.5rem;
     padding: 0;
   }
-  &__body{
-    margin: 0 0 2rem;
+  &__body {
+    margin: 0 0 2rem 0;
+    padding: 0;
+  }
+  &__blog{
+    width: 60%;
+    margin: 0 2.3rem 0 0;
+  }
+  &__picture{
+    width: 40%;
     padding: 0;
   }
 
   // &__content {}
+}
+.expanded {
+  max-width: 950px;
+  display: flex;
+  flex-direction: row;
 }

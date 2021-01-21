@@ -41,4 +41,22 @@
 				</p>
 			</div>
 		</div>
+		<section class="section">
+			<div class="section__inner">
+				<div class="content expanded">
+					<div class="content__blog">
+						<h4 class="content__title">
+							Notre Cabinet
+						</h4>
+						<p class="content__body">
+							E&A Business Consulting une société basée au <b>Cameroun</b> avec une réprésentation en <b>Autriche</b>, nous sommes trilingues (anglais, français et allemand) avec une portée continentale.
+Avec une proximité culturelle, des liens étroits et bilatéraux avec l’Afrique, notre réseau de contacts clés sur le continent et une pléiade de professionnels hautement qualifiés et bilingues, E&A Business Consulting est particulièrement bien placée pour être<b> votre conseiller</b>, <b>votre guide</b> et<b>votre facilitateur.</b>
+						</p>
+					</div>
+					<div class="content__picture">
+						<img src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg" alt="" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</section>
 </div>
