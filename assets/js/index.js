@@ -5,6 +5,8 @@
 
 // Load all modules from the folder and save them in the variable
 // import Barba from 'barba.js';
+import $ from 'jquery';
+import 'bootstrap/dist/js/bootstrap';
 import * as modules from './modules';
 import Pages from './pages';
 
@@ -76,6 +78,9 @@ class App {
     };
 
     watchHeader();
+
+    // Collapse
+    $('.collapse').collapse();
 
     // Now we can mount the current page.
     if (this.p) {
