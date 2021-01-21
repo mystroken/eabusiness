@@ -2,7 +2,7 @@
 
 $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 
-<div id="page" class="expertises-page page" data-key="expertises">
+<div id="page" class="expertises-page page" data-key="expertise">
 	<div class="hero centered">
 		<div class="hero__bg">
 			<img class="hero__image" src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg"
@@ -33,6 +33,34 @@ $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 						<li>la gestion et la conduite de projet</li>
 						<li>la création et le pilotage de projet de développement</li>
 						<li>mise en oeuvre et organisation de mission ciblées d'affaires ciblées sur l'Afrique</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section highlight">
+		<div class="section__inner">
+			<div class="content">
+				<h1 class="content__title">Nos principaux secteurs d'intervention</h1>
+				<div class="content__body">
+					<p>Les investisseurs qui cherchent à tirer parti de la croissance de l’Afrique peuvent miser sur plusieurs secteurs économiques qui affichent un fort potentiel de développement et qui seront soutenus par un très haut taux de croissance démographique et d’urbanisation. Voici les secteurs qui devraient apparaître sur votre écran radar.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="section primary">
+		<div class="section__inner">
+			<div class="content">
+				<h1 class="content__title">Notre méthodologie d'intervention</h1>
+				<div class="content__body">
+					<p>Vous souhaitez intégrer l’Afrique dans votre réseau mondial, vous souhaitez conserver une avance concurrentielle, l’équilibre entre le risque et la recherche de croissance reste cependant une question centrale ?</p>
+					<p>E&A Business Consulting se positionne comme votre point d’entrée sur le continent</p>
+					<ul>
+						<li>En vous aidant à contrôler les risques spécifiques liés à vos projets</li>
+						<li>En définissant une stratégie adaptée</li>
+						<li>En vous assistant dans la mise en place d’un dispositif opérationnel sur le terrain</li>
 					</ul>
 				</div>
 			</div>

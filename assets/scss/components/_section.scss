@@ -2,6 +2,15 @@
   margin: 0;
   padding: 8rem 0;
 
+  &.primary {
+    background-color: $primary;
+    color: $white;
+  }
+
+  &.highlight {
+    background-color: rgba($secondary, .13);
+  }
+
   &__inner {
     @extend .container;
   }

@@ -167,14 +167,54 @@
     }
   }
 
+  // Import a module (eg modals) and export it directly.
+  // Only serves to bundle all the modules under one file.
+  // This makes it easy to rebuild through all modules.
+  // export { default as scroll } from './scroll';
+  // export { default as sslider } from './sslider';
+
+  var modules$3 = /*#__PURE__*/Object.freeze({
+    __proto__: null
+  });
+
+  /* eslint-disable no-restricted-syntax */
+
+  class ExpertisePage extends Page {
+
+
+    mount() {
+
+      // Init all the necessary modules.
+      this.init(modules$3);
+    }
+
+    clean() {
+    }
+
+    /**
+     * When the menu is displayed.
+     */
+    pause() {
+    }
+
+    /**
+     * When the menu is closed.
+     */
+    resume() {
+    }
+  }
+
   var Pages = {
     home: app => new HomePage(app),
     about: app => new AboutPage(app),
+    expertise: app => new ExpertisePage(app),
     contact: app => new AboutPage(app),
   };
 
-  // Load all modules from the folder and save them in the variable
-
+  /**
+   * The Application core.
+   * @author Mystro Ken <mystroken@gmail.com>
+   */
 
   class App {
     constructor() {
@@ -190,7 +230,6 @@
     }
 
     init() {
-
       // Iterate through all modules, execute each module and
       // submit the app (this) via Dependency Injection.
       Object.keys(modules).forEach(key => {
@@ -210,6 +249,39 @@
 
       // Turn on modules
       // const { cursor } = this.m;
+
+      // Listen scroll and hide or show header.
+      const header = document.getElementById('header');
+      const { height } = header.getBoundingClientRect();
+      const watchHeader = () => {
+        let current = 0;
+        let ticking = false;
+        const onScroll = scroll => {
+          // if (scroll < last) {
+          //   header.classList.remove('pull-up');
+          // } else {
+          //   header.classList.add('pull-up');
+          // }
+
+          if (scroll <= height) {
+            header.classList.remove('dark');
+          } else {
+            header.classList.add('dark');
+          }
+        };
+        window.addEventListener('scroll', () => {
+          current = window.scrollY;
+          if (!ticking) {
+            window.requestAnimationFrame(() => {
+              onScroll(current);
+              ticking = false;
+            });
+          }
+          ticking = true;
+        });
+      };
+
+      watchHeader();
 
       // Now we can mount the current page.
       if (this.p) {

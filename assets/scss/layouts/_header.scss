@@ -4,7 +4,18 @@
   height: 6rem;
   z-index: 999;
   font-size: .76rem;
-  color: #fff;
+  color: $white;
+  transition: .4s;
+
+  &.dark {
+    background-color: $white;
+    color: $primary;
+    border-bottom: 1px solid rgba($primary, .1);
+  }
+
+  &.pull-up {
+    transform: translate3d(0,-100%,0);
+  }
 
   &__inner {
     @extend .container;
@@ -35,5 +46,9 @@
 
   .btn {
     font-size: 0.4761904762rem;
+    text-transform: uppercase;
+    width: 152px;
+    padding-left: 1.19rem;
+    padding-right: 1.19rem;
   }
 }

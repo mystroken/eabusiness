@@ -1,8 +1,12 @@
+/**
+ * The Application core.
+ * @author Mystro Ken <mystroken@gmail.com>
+ */
+
 // Load all modules from the folder and save them in the variable
 // import Barba from 'barba.js';
 import * as modules from './modules';
 import Pages from './pages';
-
 
 class App {
   constructor() {
@@ -18,7 +22,6 @@ class App {
   }
 
   init() {
-
     // Iterate through all modules, execute each module and
     // submit the app (this) via Dependency Injection.
     Object.keys(modules).forEach(key => {
@@ -38,6 +41,41 @@ class App {
 
     // Turn on modules
     // const { cursor } = this.m;
+
+    // Listen scroll and hide or show header.
+    const header = document.getElementById('header');
+    const { height } = header.getBoundingClientRect();
+    const watchHeader = () => {
+      let last = 0;
+      let current = 0;
+      let ticking = false;
+      const onScroll = scroll => {
+        // if (scroll < last) {
+        //   header.classList.remove('pull-up');
+        // } else {
+        //   header.classList.add('pull-up');
+        // }
+
+        if (scroll <= height) {
+          header.classList.remove('dark');
+        } else {
+          header.classList.add('dark');
+        }
+      };
+      window.addEventListener('scroll', () => {
+        current = window.scrollY;
+        if (!ticking) {
+          window.requestAnimationFrame(() => {
+            onScroll(current);
+            ticking = false;
+            last = (current >= 0) ? current : 0;
+          });
+        }
+        ticking = true;
+      });
+    };
+
+    watchHeader();
 
     // Now we can mount the current page.
     if (this.p) {
