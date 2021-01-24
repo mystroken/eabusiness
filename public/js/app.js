@@ -11,10 +11,6 @@
 		return module = { exports: {} }, fn(module, module.exports), module.exports;
 	}
 
-	function getCjsExportFromNamespace (n) {
-		return n && n['default'] || n;
-	}
-
 	var jquery = createCommonjsModule(function (module) {
 	/*!
 	 * jQuery JavaScript Library v3.5.1
@@ -13472,13 +13468,6 @@
 	Popper.placements = placements;
 	Popper.Defaults = Defaults;
 
-	var popper = /*#__PURE__*/Object.freeze({
-		__proto__: null,
-		'default': Popper
-	});
-
-	var require$$1 = getCjsExportFromNamespace(popper);
-
 	var bootstrap = createCommonjsModule(function (module, exports) {
 	/*!
 	  * Bootstrap v4.6.0 (https://getbootstrap.com/)
@@ -13486,7 +13475,7 @@
 	  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
 	  */
 	(function (global, factory) {
-	   factory(exports, jquery, require$$1) ;
+	   factory(exports, jquery, Popper) ;
 	}(commonjsGlobal, (function (exports, $, Popper) {
 	  function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 

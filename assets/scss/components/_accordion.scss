@@ -1,0 +1,18 @@
+.accordion {
+  .card {
+    border-bottom: 1px solid rgba($blue, .1);
+
+    &-header {
+      padding: .5rem 0;
+    }
+
+    &-body {
+      padding-bottom: 1rem;
+    }
+  }
+}
+
+[data-toggle="collapse"] {
+  padding: 0;
+  font-weight: 700;
+}
