@@ -36,7 +36,12 @@
 				<div class="header__left">
 					<h1 class="header__brand" itemscope="" itemtype="http://schema.org/Organization">
 						<a href="/" itemprop="url" class="header__logo">
-							<img src="/img/e&a_business-consulting.png" itemprop="logo" alt="E&A Business Consulting">
+							<span class="original">
+								<img src="/img/e&a-business-consulting.png" itemprop="logo" alt="E&A Business Consulting Logo">
+							</span>
+							<span class="light">
+								<img src="/img/e&a-business-consulting-light.png" alt="E&A Business Consulting Light logo">
+							</span>
 						</a>
 					</h1>
 					<nav id="navigation-primary" class="navigation-primary" role="navigation" aria-label="Navigation principale">

@@ -44,6 +44,31 @@
     margin-right: 1.25rem;
   }
 
+  &__logo {
+    @extend .position-relative;
+
+    .original {
+      opacity: 0;
+      transition: opacity .4s;
+
+      .dark & {
+        opacity: 1;
+      }
+    }
+
+    .light {
+      @extend .position-absolute;
+      top: 0;
+      left: 0;
+      opacity: 1;
+      transition: opacity .4s;
+
+      .dark & {
+        opacity: 0;
+      }
+    }
+  }
+
   .btn {
     font-size: 0.4761904762rem;
     text-transform: uppercase;
