@@ -1,0 +1,34 @@
+.summary-section {
+  .section__inner {
+    background-image: url(../img/eabusiness_logo_watercolor.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+  }
+}
+
+.about-section {
+  &__container {
+    @include media-breakpoint-up('lg') {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &__figure {
+    width: 100vw;
+    margin-top: 2rem;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+    @include media-breakpoint-up('lg') {
+      width: 304px;
+      margin-top: 0;
+      margin-left: 6rem;
+      margin-right: 0;
+      transform: translate3d(0,-20%,0);
+    }
+  }
+
+  .content {
+    margin: 0;
+  }
+}

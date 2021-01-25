@@ -15,7 +15,7 @@
 			</div>
 		</div>
 	</div>
-	<section class="section">
+	<section class="section summary-section">
 		<div class="section__inner">
 			<div class="content">
 				<h1 class="content__title">
@@ -48,16 +48,21 @@
 			</div>
 		</div>
 	</section>
-	<section class="section">
+	<section class="section about-section">
 		<div class="section__inner">
-			<div class="content">
-				<h4 class="content__title">
-					Notre Cabinet
-				</h4>
-				<p class="content__body">
-					E&A Business Consulting une société basée au <strong>Cameroun</strong> avec une réprésentation en <strong>Autriche</strong>, nous sommes trilingues (anglais, français et allemand) avec une portée continentale.
-Avec une proximité culturelle, des liens étroits et bilatéraux avec l’Afrique, notre réseau de contacts clés sur le continent et une pléiade de professionnels hautement qualifiés et bilingues, E&A Business Consulting est particulièrement bien placée pour être<strong> votre conseiller</strong>, <strong>votre guide</strong> et <strong>votre facilitateur</strong>.
-				</p>
+			<div class="about-section__container">
+				<div class="content">
+					<h4 class="content__title">
+						Notre Cabinet
+					</h4>
+					<p class="content__body">
+						E&A Business Consulting une société basée au <strong>Cameroun</strong> avec une réprésentation en <strong>Autriche</strong>, nous sommes trilingues (anglais, français et allemand) avec une portée continentale.
+	Avec une proximité culturelle, des liens étroits et bilatéraux avec l’Afrique, notre réseau de contacts clés sur le continent et une pléiade de professionnels hautement qualifiés et bilingues, E&A Business Consulting est particulièrement bien placée pour être<strong> votre conseiller</strong>, <strong>votre guide</strong> et <strong>votre facilitateur</strong>.
+					</p>
+				</div>
+				<figure class="about-section__figure">
+					<img src="/img/cover-contact-page.jpg" alt="E&A Business Consulting" class="about-section__img">
+				</figure>
 			</div>
 		</div>
 	</section>
