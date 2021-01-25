@@ -22,18 +22,24 @@
 					Un cabinet d'études et de conseils en affaires
 				</h1>
 				<p class="content__body">
-					<b>E&A Business Consulting</b> est un cabinet d'études et de conseils en affaires avec pour focus l’Afrique centrale et en programmes de développement qui <b>appuie</b> et <b>conseille</b> les entreprises privées qui souhaitent entrer sur <b>le marché africain.</b> <br><br>
-					Il vient également en aide aux gouvernements locaux, régionaux et nationaux dans l’ <b> élaboration de stratégies de développement économique</b> qui améliorent leur environnement commercial et leur attractivité pour les investissements étrangers.
+					<strong>E&A Business Consulting</strong> est un cabinet d'études et de conseils en affaires avec pour focus l’Afrique centrale et en programmes de développement qui <strong>appuie</strong> et <strong>conseille</strong> les entreprises privées qui souhaitent entrer sur <strong>le marché africain.</strong> <br><br>
+					Il vient également en aide aux gouvernements locaux, régionaux et nationaux dans l’ <strong> élaboration de stratégies de développement économique</strong> qui améliorent leur environnement commercial et leur attractivité pour les investissements étrangers.
 				</p>
-				<h4 class="content__subtitle">Nos atouts</h4>
+			</div>
+			<div class="content">
+				<h4 class="content__title">Nos atouts</h4>
 				<p class="content__body">
 					E&A Business Consulting vous offre un ensemble d'atouts avantageux pour commencer du bon pied en Afrique Subsaharienne et transformer votre projet d'implémentation en une réalité créatrice de valeurs, dans les meilleures conditions et les plus brefs délais.
 				</p>
-				<h4 class="content__subtitle">Nos valeurs</h4>
+			</div>
+			<div class="content">
+				<h4 class="content__title">Nos valeurs</h4>
 				<p class="content__body">
 					E&A Business Consulting développe une culture d'entreprise centrée sur la satisfaction de ses clients et de ses collaborateurs et sur l'atteinte des objectifs fixés dans le respect de valeurs de Qualité et d'Excellence.
 				</p>
-				<h4 class="content__subtitle">
+			</div>
+			<div class="content">
+				<h4 class="content__title">
 					Notre mission
 				</h4>
 				<p class="content__body">
@@ -41,22 +47,18 @@
 				</p>
 			</div>
 		</div>
-		<section class="section">
-			<div class="section__inner">
-				<div class="content expanded">
-					<div class="content__blog">
-						<h4 class="content__title">
-							Notre Cabinet
-						</h4>
-						<p class="content__body">
-							E&A Business Consulting une société basée au <b>Cameroun</b> avec une réprésentation en <b>Autriche</b>, nous sommes trilingues (anglais, français et allemand) avec une portée continentale.
-Avec une proximité culturelle, des liens étroits et bilatéraux avec l’Afrique, notre réseau de contacts clés sur le continent et une pléiade de professionnels hautement qualifiés et bilingues, E&A Business Consulting est particulièrement bien placée pour être<b> votre conseiller</b>, <b>votre guide</b> et<b>votre facilitateur.</b>
-						</p>
-					</div>
-					<div class="content__picture">
-						<img src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg" alt="" class="img-fluid">
-					</div>
-				</div>
+	</section>
+	<section class="section">
+		<div class="section__inner">
+			<div class="content">
+				<h4 class="content__title">
+					Notre Cabinet
+				</h4>
+				<p class="content__body">
+					E&A Business Consulting une société basée au <strong>Cameroun</strong> avec une réprésentation en <strong>Autriche</strong>, nous sommes trilingues (anglais, français et allemand) avec une portée continentale.
+Avec une proximité culturelle, des liens étroits et bilatéraux avec l’Afrique, notre réseau de contacts clés sur le continent et une pléiade de professionnels hautement qualifiés et bilingues, E&A Business Consulting est particulièrement bien placée pour être<strong> votre conseiller</strong>, <strong>votre guide</strong> et <strong>votre facilitateur</strong>.
+				</p>
 			</div>
-		</section>
+		</div>
+	</section>
 </div>
