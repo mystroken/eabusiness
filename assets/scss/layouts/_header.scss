@@ -1,7 +1,7 @@
 .header {
   @extend .w-100;
   position: fixed;
-  height: 6rem;
+  height: 4rem;
   z-index: 999;
   font-size: .76rem;
   color: $white;
@@ -25,23 +25,14 @@
     @extend .h-100;
   }
 
-  &__left {
-    @extend .d-flex;
-    @extend .align-items-center;
-  }
-
-  &__right {
-    @extend .d-flex;
-    @extend .align-items-center;
-    @extend .col-3;
-    font-weight: 700;
-  }
-
   &__brand {
-    @extend .col-2;
     margin: 0;
     padding: 0;
     margin-right: 1.25rem;
+    width: 50%;
+    @include media-breakpoint-up('lg') {
+      width: 196px;
+    }
   }
 
   &__logo {
@@ -49,7 +40,7 @@
 
     .original {
       opacity: 0;
-      transition: opacity .4s;
+      transition: opacity .2s;
 
       .dark & {
         opacity: 1;
@@ -61,7 +52,7 @@
       top: 0;
       left: 0;
       opacity: 1;
-      transition: opacity .4s;
+      transition: opacity .2s;
 
       .dark & {
         opacity: 0;
@@ -69,11 +60,37 @@
     }
   }
 
+  &__contact {
+    display: none;
+    font-weight: 700;
+    @include media-breakpoint-up('xl') {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  a {
+    color: currentColor;
+
+    &:hover {
+      opacity: .7;
+    }
+  }
+
   .btn {
-    font-size: 0.4761904762rem;
-    text-transform: uppercase;
     width: 152px;
     padding-left: 1.19rem;
     padding-right: 1.19rem;
+    background: transparent;
+    border-color: white;
+    font-size: 0.4761904762rem;
+    text-transform: uppercase;
+    transition: none;
+  }
+
+  &.dark .btn {
+    background: $primary;
+    border-color: $primary;
+    color: white;
   }
 }

@@ -8,12 +8,30 @@
 
 .navigation-primary {
   display: none;
+  @extend .flex-column;
+  @extend .justify-content-end;
+  @extend .position-fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  // z-index: -1;
   @include media-breakpoint-up('lg') {
     display: flex;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    position: relative !important;
+    background: transparent;
   }
 
   .menu {
     @extend .d-flex;
+    @extend .flex-column;
+    @include media-breakpoint-up('lg') {
+      flex-direction: row !important;
+    }
   }
 
   .menu-link {

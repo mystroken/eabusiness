@@ -33,40 +33,46 @@
 	<div id="site" role="document" itemscope="" itemtype="http://schema.org/WebPage">
 		<header id="header" class="header" role="banner" itemscope="" itemtype="http://schema.org/WPHeader">
 			<div class="header__inner">
-				<div class="header__left">
-					<h1 class="header__brand" itemscope="" itemtype="http://schema.org/Organization">
-						<a href="/" itemprop="url" class="header__logo">
+				<h1 class="header__brand" itemscope="" itemtype="http://schema.org/Organization">
+					<a href="/" itemprop="url" class="header__logo">
 							<span class="original">
 								<img src="/img/e&a-business-consulting.png" itemprop="logo" alt="E&A Business Consulting Logo">
 							</span>
-							<span class="light">
+						<span class="light">
 								<img src="/img/e&a-business-consulting-light.png" alt="E&A Business Consulting Light logo">
 							</span>
-						</a>
-					</h1>
-					<nav id="navigation-primary" class="navigation-primary" role="navigation" aria-label="Navigation principale">
-						<ul class="menu" itemscope itemtype="https://schema.org/SiteNavigationElement">
-							<li class="menu-item" itemprop="name">
-								<a class="menu-link" itemprop="url" href="/">Accueil</a>
-							</li>
-							<li class="menu-item" itemprop="name">
-								<a class="menu-link" itemprop="url" href="/a-propos">Qui sommes-nous?</a>
-							</li>
-							<li class="menu-item" itemprop="name">
-								<a class="menu-link" itemprop="url" href="/notre-expertise">Notre expertise</a>
-							</li>
-							<li class="menu-item" itemprop="name">
-								<a class="menu-link" itemprop="url" href="/nos-partenaires">Nos partenaires</a>
-							</li>
-							<li class="menu-item" itemprop="name">
-								<a class="menu-link" itemprop="url" href="/nos-evenements">Évènements</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-				<div class="header__right">
-					<div>+237 222 002 222</div>
-					<a href="/contactez-nous" class="btn btn-primary">Nous contacter</a>
+					</a>
+				</h1>
+				<nav id="navigation-primary" class="navigation-primary" role="navigation" aria-label="Navigation principale">
+					<ul class="menu" itemscope itemtype="https://schema.org/SiteNavigationElement">
+						<li class="menu-item" itemprop="name">
+							<a class="menu-link" itemprop="url" href="/">Accueil</a>
+						</li>
+						<li class="menu-item" itemprop="name">
+							<a class="menu-link" itemprop="url" href="/a-propos">Qui sommes-nous?</a>
+						</li>
+						<li class="menu-item" itemprop="name">
+							<a class="menu-link" itemprop="url" href="/notre-expertise">Notre expertise</a>
+						</li>
+						<li class="menu-item" itemprop="name">
+							<a class="menu-link" itemprop="url" href="/nos-partenaires">Nos partenaires</a>
+						</li>
+						<li class="menu-item" itemprop="name">
+							<a class="menu-link" itemprop="url" href="/nos-evenements">Évènements</a>
+						</li>
+					</ul>
+					<div class="header__contact">
+						<a class="telephone" href="tel:+237 222 002 222">+237 222 002 222</a>
+						<a class="btn btn-primary" href="/contactez-nous">Nous contacter</a>
+					</div>
+				</nav>
+				<div class="hamburger-wrapper">
+					<button id="hamburgerToggle" type="button" class="hamburger" aria-label="Hamburger">
+						<span class="hamburger-box">
+							<span class="line line--1"></span>
+							<span class="line line--2"></span>
+						</span>
+					</button>
 				</div>
 			</div>
 		</header>
