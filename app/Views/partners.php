@@ -5,12 +5,13 @@ $this->layout('layouts/base', ['title' => 'Nos partenaires']) ?>
 <div id="page" class="partners-page page" data-key="partners">
 	<div class="hero centered">
 		<div class="hero__bg">
-			<img class="hero__image" src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg"
-				alt="Comprendre la culture, les mentalités et le monde des affaires en Afrique centrale est primordial pour reussir.">
+			<img class="hero__image" src="/img/cover-partners-page.jpeg" alt="Nos partenaires">
 		</div>
 		<div class="hero__content">
 			<h1 class="hero__title">Nos partenaires</h1>
-			<!-- <div class="hero__copy"></div> -->
+			<div class="hero__copy">
+				Les partenaires qui nous font confiance et qui nous accompagnent au quotidien.
+			</div>
 		</div>
 	</div>
 
@@ -40,14 +41,12 @@ $this->layout('layouts/base', ['title' => 'Nos partenaires']) ?>
 	<section class="section">
 		<div class="section__inner">
 			<div class="content">
-				<h1 class="content__title">Ils nous font confiance</h1>
-				<div class="content__body">
-					<div class="d-flex">
-						<img src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg" alt="">
-						<img src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg" alt="">
-						<img src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg" alt="">
-					</div>
-				</div>
+				<h1 class="content__title text-center">Ils nous font confiance</h1>
+			</div>
+			<div class="partners-grid">
+				<img src="/img/partners/wecashup.png" alt="WeCashUp">
+				<img src="/img/partners/wecashup.png" alt="WeCashUp">
+				<img src="/img/partners/wecashup.png" alt="WeCashUp">
 			</div>
 		</div>
 	</section>
