@@ -4,7 +4,7 @@
 <div id="page" class="about-page page" data-key="about">
 	<div class="hero centered">
 		<div class="hero__bg">
-			<img class="hero__image" src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg" alt="Comprendre la culture, les mentalités et le monde des affaires en Afrique centrale est primordial pour reussir.">
+			<img class="hero__image" src="/img/cover-about-page.jpg" alt="Comprendre la culture, les mentalités et le monde des affaires en Afrique centrale est primordial pour reussir.">
 		</div>
 		<div class="hero__content">
 			<h1 class="hero__title">
