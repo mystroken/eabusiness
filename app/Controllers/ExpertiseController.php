@@ -10,7 +10,7 @@ class ExpertiseController extends Controller
 {
 	public function index(): void
 	{
-		echo $this->templates->render('expertises');
+		echo $this->templates->render('expertise');
 	}
 
 }

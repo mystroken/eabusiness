@@ -1,14 +1,39 @@
 .accordion {
-  .card {
+  &__item {
     border-bottom: 1px solid rgba($blue, .1);
+  }
 
-    &-header {
-      padding: .5rem 0;
-    }
+  &__header {
+    padding: 1rem 0;
 
-    &-body {
-      padding-bottom: 1rem;
+    &__link {
+      cursor: pointer;
+
+      &:after {
+        content:"\f4d7";
+        font-family: bootstrap-icons;
+        font-size: 1em;
+        font-style: normal;
+        font-weight: 400;
+        font-variant: normal;
+        line-height: 1;
+        text-transform: none;
+        vertical-align: text-bottom;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        float:right;
+        transform: rotate(45deg);
+        transition: transform .2s;
+      }
+
+      &.collapsed:after {
+        transform: rotate(0deg);
+      }
     }
+  }
+
+  .collapse {
+    padding-bottom: 1rem;
   }
 }
 

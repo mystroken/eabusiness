@@ -7,6 +7,13 @@ html {
   @include fluid-type($min_width, $max_width, $min_font, $max_font);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  // @extend .h-100;
+  // overflow: hidden;
 }
 
 video,
@@ -16,15 +23,31 @@ img {
 }
 
 ul {
+  @extend .p-0;
   list-style-type: none;
-  padding: 0;
 
   li {
-    padding-left: #{16+16}px;
+    margin-bottom: .2rem;
+    padding-left: 2rem;
     background-image: url(../img/list-style-image.svg);
-    background-position: left center;
+    background-position: 0 0;
     background-repeat: no-repeat;
+    background-size: 1rem 1.6rem;
   }
+}
+
+ol {
+  @extend .p-0;
+  // list-style-position: inside;
+}
+
+#site {
+  // @extend .position-absolute;
+  // top: 0;
+  // left: 0;
+  // right: 0;
+  // bottom: 0;
+  // overflow: auto;
 }
 
 .page {

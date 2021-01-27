@@ -19,6 +19,7 @@
   // z-index: -1;
   @include media-breakpoint-up('lg') {
     display: flex;
+    flex: 1;
     flex-direction: row !important;
     justify-content: space-between !important;
     align-items: center !important;
@@ -36,7 +37,7 @@
 
   .menu-link {
     display: block;
-    padding: 0 1rem;
+    padding: 0 .7rem;
     font-size: 1em;
     color: currentColor;
 

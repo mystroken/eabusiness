@@ -67,6 +67,12 @@
       display: flex;
       align-items: center;
     }
+
+    .telephone {
+      @include media-breakpoint-up('lg') {
+        margin-right: .7rem;
+      }
+    }
   }
 
   a {
