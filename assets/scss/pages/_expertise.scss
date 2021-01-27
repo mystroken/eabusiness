@@ -1,7 +1,12 @@
 .team-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
   @include media-breakpoint-up('md') {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1.43rem;
+  }
+  @include media-breakpoint-up('lg') {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
