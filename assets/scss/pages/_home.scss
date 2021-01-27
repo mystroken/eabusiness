@@ -1,0 +1,7 @@
+.home-vision {
+  &__figure {
+    @include media-breakpoint-up('lg') {
+      transform: translate3d(0,50%,0) !important;
+    }
+  }
+}
