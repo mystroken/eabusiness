@@ -35,11 +35,7 @@ $this->layout('layouts/base', ['title' => 'Nos partenaires']) ?>
 					</ul>
 				</div>
 			</div>
-		</div>
-	</section>
-
-	<section class="section">
-		<div class="section__inner">
+			<div class="spacer"></div>
 			<div class="content">
 				<h1 class="content__title text-center">Ils nous font confiance</h1>
 			</div>
@@ -47,7 +43,7 @@ $this->layout('layouts/base', ['title' => 'Nos partenaires']) ?>
 				<img src="/img/partners/wecashup.png" alt="WeCashUp">
 				<img src="/img/partners/cms.jpeg" alt="Compact milling systems">
 				<img src="/img/partners/yaso.jpeg" alt="Soy like never before">
-				<img src="/img/partners/wko.jpeg" alt="WKO">
+				<!-- <img src="/img/partners/wko.jpeg" alt="WKO"> -->
 			</div>
 		</div>
 	</section>

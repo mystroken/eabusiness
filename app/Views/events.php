@@ -22,11 +22,7 @@ $this->layout('layouts/base', ['title' => 'Nos Évènements']) ?>
 					<p>Non seulement que nous organisons des missions économiques, nous organisons aussi des rencontres d'affaires B2B.</p>
 				</div>
 			</div>
-		</div>
-	</section>
-
-	<section class="section">
-		<div class="section__inner">
+			<div class="spacer"></div>
 			<div class="content">
 				<h1 class="content__title">Projets en cours</h1>
 				<div class="content__body">
@@ -35,20 +31,20 @@ $this->layout('layouts/base', ['title' => 'Nos Évènements']) ?>
 							<div class="accordion__header" id="headingOne">
 								<h4 class="mb-0">
 									<a class="accordion__header__link" data-toggle="collapse" data-target="#collapseOne" aria-controls="collapseOne" aria-expanded="true">
-										Forum Economique Afrique Centrale (FEAC21)
+										Forum Economique Afrique Centrale (FEAC)
 									</a>
 								</h4>
 							</div>
 							<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExpertises">
-								<p>Le FEAC21 est une plateforme d’échanges multi sectorielle qui vise à créer des opportunités d’affaires entre les entreprises africaines et celles du reste du monde, tout en étant un acteur majeur de la croissance en Afrique.</p>
-								<p>Le FEAC21 est un espace dédié aux rencontres entre partenaires d’affaires (entreprises nationales et internationales, investisseurs, etc…) multisectoriel, qui a pour but de créer des opportunités d’affaires et d’investissements.</p>
+								<p>Le FEAC est une plateforme d’échanges multi sectorielle qui vise à créer des opportunités d’affaires entre les entreprises africaines et celles du reste du monde, tout en étant un acteur majeur de la croissance en Afrique.</p>
+								<p>Le FEAC est un espace dédié aux rencontres entre partenaires d’affaires (entreprises nationales et internationales, investisseurs, etc…) multisectoriel, qui a pour but de créer des opportunités d’affaires et d’investissements.</p>
 								<figure>
 									<img src="/img/feac21.png" alt="Forum Economique Afrique Centrale (FEAC21)">
 								</figure>
 								<br><br>
 								<p>
-									<strong>Objectif du FEAC21</strong><br>
-									Le FEAC21 ambitionne d’être une plateforme innovante, à la pointe de la technologie, disposant d’un assortiment de produits adaptés, qui propose des solutions modernes en vue de solidifier les entreprises de la sous-région Afrique central, ceci en misant sur la qualité, non la quantité, et sur l’entreprenariat des jeunes et de la femme.
+									<strong>Objectif du FEAC</strong><br>
+									Le FEAC ambitionne d’être une plateforme innovante, à la pointe de la technologie, disposant d’un assortiment de produits adaptés, qui propose des solutions modernes en vue de solidifier les entreprises de la sous-région Afrique central, ceci en misant sur la qualité, non la quantité, et sur l’entreprenariat des jeunes et de la femme.
 								</p><br>
 								<p>
 									<strong>Public cible</strong><br>
@@ -74,10 +70,11 @@ $this->layout('layouts/base', ['title' => 'Nos Évènements']) ?>
 								</p><br>
 								<p>
 									<strong>Comment participer ?</strong><br>
+									La participation au <strong>FEAC</strong> peut s'effectuer suivant les formules ci-après:
 									<ul>
-										<li><strong>Formule classique :  550 000 FCFA</strong></li>
-										<li><strong>Formule premium : 600 000 FCFA</strong></li>
-										<li><strong>Formule VIP : 650 000 FCFA</strong></li>
+										<li><strong>Module Classique :  850 €</strong></li>
+										<li><strong>Module Premium : 1.000 €</strong></li>
+										<li><strong>Module VIP : 1.200 €</strong></li>
 									</ul>
 								</p>
 							</div>

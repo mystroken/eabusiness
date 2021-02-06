@@ -1,0 +1,6 @@
+.spacer {
+  height: 4rem;
+  @include media-breakpoint-up('lg') {
+    height: 8rem;
+  }
+}

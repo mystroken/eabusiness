@@ -62,7 +62,7 @@
 						</li>
 					</ul>
 					<div class="header__contact">
-						<a class="telephone" href="tel:+237 222 002 222">+237 222 002 222</a>
+						<a class="telephone" href="tel:+237 656 056 453">+237 656 056 453</a>
 						<a class="btn btn-primary" href="/contactez-nous">Nous contacter</a>
 					</div>
 				</nav>
@@ -87,25 +87,34 @@
 			</div>
 			<div class="footer__content d-lg-flex text-center text-lg-left">
 				<div class="footer__info mx-auto mx-lg-0" itemscope itemtype="https://schema.org/Organization">
-					<span itemprop="name">E&A Business Consulting</span>
+					<span itemprop="name">E&A Business Consulting SARL</span>
 					<p>
-						Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum. Nullam quis risus eget urna mollis ornare vel eu leo.
+						Un cabinet d'études et de conseils en affaires avec pour focus l’Afrique centrale et en programmes de développement qui appuie et conseille les entreprises privées qui souhaitent entrer sur le marché africain.
 					</p>
-					<span itemprop="telephone">(+237) 242 68 53 00 </span><br>
-					<span itemprop="email">info(at)eabusiness.africa</span>
+					<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+						<!-- <span itemprop="streetAddress">20341 Whitworth Institute</span> -->
+						<span itemprop="postalCode">B.P 4633</span>
+						<span itemprop="addressLocality">Yaoundé</span>
+					</div>
+					<div itemprop="telephone">(237) 656056453</div>
+					<div itemprop="telephone">(43) 664 5646435</div>
+					<div itemprop="email">info@eabusiness.africa</div>
 				</div>
 				<nav class="navigation-secondary d-md-flex justify-content-center w-100 mt-5 mt-lg-0">
 					<div class="footer__nav__item">
-						<h4 class="footer__nav__title">Menu #1</h4>
+						<h4 class="footer__nav__title">A propos</h4>
 						<ul class="footer__menu menu menu-1">
 							<li class="menu-item">
-								<a href="#" class="menu-link">Link 1</a>
+								<a href="/a-propos" class="menu-link">Le cabinet</a>
 							</li>
 							<li class="menu-item">
-								<a href="#" class="menu-link">Element 2</a>
+								<a href="/notre-expertise" class="menu-link">Notre expertise</a>
 							</li>
 							<li class="menu-item">
-								<a href="#" class="menu-link">Link 3</a>
+								<a href="/notre-expertise#equipe" class="menu-link">Notre équipe</a>
+							</li>
+							<li class="menu-item">
+								<a href="/contactez-nous" class="menu-link">Nous contacter</a>
 							</li>
 						</ul>
 					</div>

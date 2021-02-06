@@ -23,16 +23,16 @@ $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 					<p>Aujourd’hui de nouvelles dynamiques opèrent. L’Afrique participe de façon croissante aux échanges mondiaux, de nouvelles dynamiques intracontinentales se développent à grande vitesse, laissant apparaître l’émergence de marchés régionaux et les chaînes de valeurs se consolident.
 					</p>
 					<p>L’explosion démographique et l’urbanisation rampante se conjuguent à la croissance de la demande alimentaire mondiale pour amorcer une révolution agricole longtemps attendue.</p>
-					<p>E&A Business Consulting veut prendre part au développement durable et à la promotion des nouvelles dynamiques transfrontalières, et c’est dans cette perspective que notre activité se concentre sur l’appui aux investisseurs.</p>
+					<p>E&A Business Consulting Sarl veut prendre part au développement durable et à la promotion des nouvelles dynamiques transfrontalières, et c’est dans cette perspective que notre activité se concentre sur l’appui aux investisseurs.</p>
 					<ul>
-						<li>La prospection de nouveaux marchés ;</li>
-						<li>L'identification d'opportunités d'affaires ;</li>
-						<li>La recherche et la fidélisation de prospects et clients ;</li>
-						<li>La gestion et l'accompagnement operationnel ;</li>
-						<li>La représentation des entreprises ;</li>
-						<li>La négoce international et le courtage en affaire ;</li>
-						<li>La gestion et la conduite de projet ;</li>
-						<li>La création et le pilotage de projet de développement ;</li>
+						<li>La prospection de nouveaux marchés</li>
+						<li>L'identification d'opportunités d'affaires</li>
+						<li>La recherche et la fidélisation de prospects et clients</li>
+						<li>La gestion et l'accompagnement operationnel</li>
+						<li>La représentation des entreprises</li>
+						<li>La négoce international et le courtage en affaire</li>
+						<li>La gestion et la conduite de projet</li>
+						<li>La création et le pilotage de projet de développement</li>
 						<li>La mise en oeuvre et organisation de mission ciblées d'affaires ciblées sur l'Afrique.</li>
 					</ul>
 				</div>
@@ -252,7 +252,7 @@ $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 		</div>
 	</section>
 
-	<section class="section">
+	<section id="equipe" class="section">
 		<div class="section__inner">
 			<div class="content">
 				<h1 class="content__title text-center">Notre équipe</h1>
