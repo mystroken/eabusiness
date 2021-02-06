@@ -9,6 +9,7 @@ import $ from 'jquery';
 import 'bootstrap/dist/js/bootstrap';
 import * as modules from './modules';
 import Pages from './pages';
+import Page from './pages/page';
 
 class App {
   constructor() {
@@ -140,8 +141,8 @@ class App {
       /*eslint-disable-line */
       return Pages[key](this);
     }
-
-    throw new TypeError('This page is not registered.');
+    console.warn('This page is not registered.');
+    return new Page(this);
   }
 }
 

@@ -116,7 +116,12 @@ $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 								</h4>
 							</div>
 							<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExpertises">
-								Commercialisations des solutions d'énergie propres – Audit energétique( Analyse du reseau, bilan de puissance etc..) - Amélioration du facteur de puissance – Conception d'affichages( Sensibilisation en économie d'énergie) – Conseill dans l'acquisition et l'installation des systemes d'énergie renouvelable)
+								<p>Commercialisations des solutions d'énergie propres</p>
+								<ul>
+									<li>Audit energétique (Analyse du reseau, bilan de puissance etc..)</li>
+									<li>Amélioration du facteur de puissance – Conception d'affichages (Sensibilisation en économie d'énergie)</li>
+									<li>Conseill dans l'acquisition et l'installation des systemes d'énergie renouvelable</li>
+								</ul>
 							</div>
 						</li>
 						<li class="accordion__item">
@@ -254,40 +259,50 @@ $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 			</div>
 			<div class="team-grid">
 				<div class="card">
-					<img class="card-img-top" src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg" alt="Card image cap">
+					<figure class="team__figure">
+						<img class="team__img" src="/img/team/jean-baptiste-fouda-atangana.jpeg" alt="Jean Baptiste FOUDA ATANGANA">
+					</figure>
 					<div class="card-body">
 						<h5 class="card-title text-center">Jean Baptiste FOUDA ATANGANA</h5>
 						<p class="card-text text-center">Chief Executive Officer</p>
 					</div>
 				</div>
 				<div class="card">
-					<img class="card-img-top" src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg" alt="Card image cap">
+					<figure class="team__figure">
+						<img class="team__img" src="/img/team/yannick-barnabe-mebada-ekani.jpeg" alt="Yannick Barnabé MEBADA EKANI">
+					</figure>
 					<div class="card-body">
 						<h5 class="card-title text-center">Yannick Barnabé MEBADA EKANI</h5>
 						<p class="card-text text-center">Chief Financial Officer</p>
 					</div>
 				</div>
-				<div class="card">
-					<img class="card-img-top" src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg" alt="Card image cap">
+				<!-- <div class="card">
+					<figure class="team__figure">
+						<img class="team__img" src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg" alt="Card image cap">
+					</figure>
 					<div class="card-body">
 						<h5 class="card-title text-center">XXX</h5>
 						<p class="card-text text-center">Chief Executive Officer</p>
 					</div>
-				</div>
+				</div> -->
 				<div class="card">
-					<img class="card-img-top" src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg" alt="Card image cap">
+					<figure class="team__figure">
+						<img class="team__img" src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg" alt="Card image cap">
+					</figure>
 					<div class="card-body">
 						<h5 class="card-title text-center">Maitre FOUDA</h5>
 						<p class="card-text text-center">Affaire Juridique</p>
 					</div>
 				</div>
-				<div class="card">
-					<img class="card-img-top" src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg" alt="Card image cap">
+				<!-- <div class="card">
+					<figure class="team__figure">
+						<img class="team__img" src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg" alt="Card image cap">
+					</figure>
 					<div class="card-body">
 						<h5 class="card-title text-center">XXX</h5>
 						<p class="card-text text-center">Sécrétaire</p>
 					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>

@@ -45,8 +45,9 @@ $this->layout('layouts/base', ['title' => 'Nos partenaires']) ?>
 			</div>
 			<div class="partners-grid">
 				<img src="/img/partners/wecashup.png" alt="WeCashUp">
-				<img src="/img/partners/wecashup.png" alt="WeCashUp">
-				<img src="/img/partners/wecashup.png" alt="WeCashUp">
+				<img src="/img/partners/cms.jpeg" alt="Compact milling systems">
+				<img src="/img/partners/yaso.jpeg" alt="Soy like never before">
+				<img src="/img/partners/wko.jpeg" alt="WKO">
 			</div>
 		</div>
 	</section>

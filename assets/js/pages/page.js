@@ -26,7 +26,7 @@ export default class Page {
    * @abstract
    */
   mount() {
-    throw new TypeError(`${this.toString()}: You must implement the mount method.`);
+    console.warn(`${this.toString()}: You must implement the mount method.`);
   }
 
 
