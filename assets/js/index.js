@@ -10,6 +10,8 @@ import 'bootstrap/dist/js/bootstrap';
 import * as modules from './modules';
 import Pages from './pages';
 import Page from './pages/page';
+import is_touch_device from './lib/is-touch-device';
+import initializeScroll from './lib/scroll';
 
 class App {
   constructor() {
@@ -45,6 +47,17 @@ class App {
     // Turn on modules
     // const { cursor } = this.m;
 
+    if (! is_touch_device() ) {
+      const scroll = initializeScroll({
+        container: document.querySelector('#site'),
+        elements: [
+          document.querySelector('#page'),
+          document.querySelector('#footer'),
+        ]
+      });
+      scroll.on();
+    }
+
     // Listen scroll and hide or show header.
     const header = document.getElementById('header');
     const { height } = header.getBoundingClientRect();
@@ -53,11 +66,11 @@ class App {
       let current = 0;
       let ticking = false;
       const onScroll = scroll => {
-        // if (scroll < last) {
-        //   header.classList.remove('pull-up');
-        // } else {
-        //   header.classList.add('pull-up');
-        // }
+        if (scroll < last) {
+          header.classList.remove('pull-up');
+        } else {
+          header.classList.add('pull-up');
+        }
 
         if (scroll <= height) {
           header.classList.remove('dark');
@@ -77,7 +90,6 @@ class App {
         ticking = true;
       });
     };
-
     watchHeader();
 
     // Collapse

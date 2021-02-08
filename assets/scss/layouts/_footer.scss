@@ -5,7 +5,10 @@
   font-size: .8rem;
   background-color: #001329;
   color: #fff;
-  clip-path: ellipse(130% 80% at 20% 80%);
+  clip-path: ellipse(180% 80% at 40% 80%);
+  @include media-breakpoint-up('lg') {
+    clip-path: ellipse(130% 80% at 40% 80%);
+  }
 
   a {
     color: currentColor;
