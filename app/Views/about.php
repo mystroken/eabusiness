@@ -19,7 +19,7 @@
 		<div class="section__inner">
 			<div class="content">
 				<h1 class="content__title">
-					Un cabinet d'études et de conseils en affaires
+					Un Cabinet conseils en affaires
 				</h1>
 				<p class="content__body">
 					<strong>E&A Business Consulting Sarl</strong> est un cabinet d'études et de conseils en affaires avec pour focus l’Afrique centrale et en programmes de développement qui <strong>appuie</strong> et <strong>conseille</strong> les entreprises privées qui souhaitent entrer sur <strong>le marché africain.</strong> <br><br>
@@ -36,14 +36,6 @@
 				<h4 class="content__title">Nos valeurs</h4>
 				<p class="content__body">
 					E&A Business Consulting Sarl développe une culture d'entreprise centrée sur la satisfaction de ses clients et de ses collaborateurs et sur l'atteinte des objectifs fixés dans le respect de valeurs de Qualité et d'Excellence.
-				</p>
-			</div>
-			<div class="content">
-				<h4 class="content__title">
-					Notre mission
-				</h4>
-				<p class="content__body">
-					Apporter notre expertise et notre connaissance intime du marché africain et de sa culture d’affaires au service de nos clients afin de les accompagner efficacement dans l’exploration et la mise en œuvre de nouvelles occasions d’affaires et investissements.
 				</p>
 			</div>
 		</div>

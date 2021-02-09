@@ -35,7 +35,7 @@ function create(params) {
   // Target scroll position
   let target = 0
   // Ease or speed for moving from `current` to `target`
-  const ease = 0.075
+  const ease = 0.1
   // Utility variables for `requestAnimationFrame`
   var rafId = undefined
   var rafActive = false
@@ -96,7 +96,7 @@ function create(params) {
       // Update `current` scroll position
       current += delta
       // Round value for better performance
-      current = parseFloat(current.toFixed(2))
+      current = parseFloat(current.toFixed(3))
       // Call `update` again, using `requestAnimationFrame`
       rafId = requestAnimationFrame(updateAnimation)
     } else { // If `delta === 0`
