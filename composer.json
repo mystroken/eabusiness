@@ -6,7 +6,9 @@
         "php": "^7.1",
         "league/plates": "3.*",
         "voku/html-min": "^4.0",
-        "ext-pdo": "*"
+        "ext-pdo": "*",
+        "omnimail/omnimail": "dev-development",
+        "sendgrid/sendgrid": "^7.9"
     },
     "autoload": {
         "psr-4": {
