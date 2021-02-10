@@ -1,5 +1,7 @@
 <?php
 
+use App\Router;
+
 
 /**
  * Get the path from the project root.
@@ -48,4 +50,23 @@ function sanitize_input( ?array $input ): array
 {
 	$input = $input ?? [];
 	return array_map( 'htmlspecialchars', array_map( 'trim', $input ) );
+}
+
+/**
+ * Get the router instance.
+ * @return Router
+ */
+function router(): Router
+{
+	return Router::getInstance();
+}
+
+/**
+ * Get a URL from the route name.
+ * @param string $routeName The route's name.
+ * @return string
+ */
+function url(string $routeName): string
+{
+	return router()->url($routeName);
 }

@@ -34,7 +34,7 @@
 		<header id="header" class="header" role="banner" itemscope="" itemtype="http://schema.org/WPHeader">
 			<div class="header__inner">
 				<h1 class="header__brand" itemscope="" itemtype="http://schema.org/Organization">
-					<a href="/" itemprop="url" class="header__logo">
+					<a href="<?= url('home'); ?>" itemprop="url" class="header__logo">
 							<span class="original">
 								<img src="/img/e&a-business-consulting.png" itemprop="logo" alt="E&A Business Consulting Logo">
 							</span>
@@ -46,24 +46,24 @@
 				<nav id="navigation-primary" class="navigation-primary" role="navigation" aria-label="Navigation principale">
 					<ul class="menu" itemscope itemtype="https://schema.org/SiteNavigationElement">
 						<li class="menu-item" itemprop="name">
-							<a class="menu-link" itemprop="url" href="/">Accueil</a>
+							<a class="menu-link" itemprop="url" href="<?= url('home'); ?>">Accueil</a>
 						</li>
 						<li class="menu-item" itemprop="name">
-							<a class="menu-link" itemprop="url" href="/a-propos">Qui sommes-nous?</a>
+							<a class="menu-link" itemprop="url" href="<?= url('about'); ?>">Qui sommes-nous?</a>
 						</li>
 						<li class="menu-item" itemprop="name">
-							<a class="menu-link" itemprop="url" href="/notre-expertise">Notre expertise</a>
+							<a class="menu-link" itemprop="url" href="<?= url('expertise'); ?>">Notre expertise</a>
 						</li>
 						<li class="menu-item" itemprop="name">
-							<a class="menu-link" itemprop="url" href="/nos-partenaires">Nos partenaires</a>
+							<a class="menu-link" itemprop="url" href="<?= url('partners'); ?>">Nos partenaires</a>
 						</li>
 						<li class="menu-item" itemprop="name">
-							<a class="menu-link" itemprop="url" href="/nos-evenements">Évènements</a>
+							<a class="menu-link" itemprop="url" href="<?= url('events'); ?>">Évènements</a>
 						</li>
 					</ul>
 					<div class="header__contact">
 						<a class="telephone" href="tel:+237 656 056 453">+237 656 056 453</a>
-						<a class="btn btn-primary" href="/contactez-nous">Nous ecrire</a>
+						<a class="btn btn-primary" href="<?= url('contact'); ?>">Nous ecrire</a>
 					</div>
 				</nav>
 				<div class="hamburger-wrapper">
@@ -105,16 +105,16 @@
 						<h4 class="footer__nav__title">A propos</h4>
 						<ul class="footer__menu menu menu-1">
 							<li class="menu-item">
-								<a href="/a-propos" class="menu-link">Le cabinet</a>
+								<a href="<?= url('about'); ?>" class="menu-link">Le cabinet</a>
 							</li>
 							<li class="menu-item">
-								<a href="/notre-expertise" class="menu-link">Notre expertise</a>
+								<a href="<?= url('expertise'); ?>" class="menu-link">Notre expertise</a>
 							</li>
 							<li class="menu-item">
-								<a href="/notre-expertise#equipe" class="menu-link">Notre équipe</a>
+								<a href="<?= url('expertise'); ?>#equipe" class="menu-link">Notre équipe</a>
 							</li>
 							<li class="menu-item">
-								<a href="/contactez-nous" class="menu-link">Nous contacter</a>
+								<a href="<?= url('contact'); ?>" class="menu-link">Nous contacter</a>
 							</li>
 						</ul>
 					</div>

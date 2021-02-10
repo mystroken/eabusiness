@@ -150,4 +150,27 @@ class Router
 		// Call the controller.
 		$this->currentRoute->render();
 	}
+
+	/**
+	 * Returns a URL from a route name.
+	 * @param string $routeName
+	 * @return string
+	 */
+	public function url(string $routeName): string
+	{
+		$methods = [ 'GET', 'POST' ];
+		$methodsCount = count( $methods );
+		for ($i = 0; $i < $methodsCount; $i++)
+		{
+			/**
+			 * @var string $key
+			 * @var Route $route
+			 */
+			foreach($this->routes[$methods[$i]] as $key => $route)
+			{
+				if ($routeName == $route->getName()) return $key;
+			}
+		}
+		return '';
+	}
 }

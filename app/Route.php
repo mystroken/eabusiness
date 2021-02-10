@@ -69,6 +69,14 @@ class Route
 	}
 
 	/**
+	 * Get the route's name.
+	 * @return string
+	 */
+	public function getName(): string {
+		return $this->name;
+	}
+
+	/**
 	 * Get the route parameters.
 	 *
 	 * @return array
