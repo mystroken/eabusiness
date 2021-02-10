@@ -55,18 +55,18 @@
 				Laissez-nous un message et nous vous recontacterons dans de brefs délais.
 			</div>
 			<div class="section__content">
-				<form method="POST" action="http://localhost:8008/contactez-nous">
+				<form method="POST" action="<?= url('contact'); ?>">
 					<div class="form-group">
 						<label for="contactInputName">Votre nom</label>
-						<input type="email" class="form-control" id="contactInputName" placeholder="Entrez votre nom" name="name">
+						<input type="text" class="form-control" id="contactInputName" placeholder="Entrez votre nom" name="name">
 					</div>
 					<div class="form-group">
 						<label for="contactInputEmail">Votre email</label>
 						<input type="email" class="form-control" id="contactInputEmail" placeholder="Entrez votre adresse email" name="email">
 					</div>
 					<div class="form-group">
-						<label for="exampleInputMessage">Votre message</label>
-						<textarea class="form-control" id="exampleInputMessage" rows="3" placeholder="Entrez votre message" name="message"></textarea>
+						<label for="contactInputMessage">Votre message</label>
+						<textarea class="form-control" id="contactInputMessage" rows="3" placeholder="Entrez votre message" name="message"></textarea>
 					</div>
 					<div class="mt-3">
 						<button type="submit" class="btn btn-primary">Envoyer le message</button>

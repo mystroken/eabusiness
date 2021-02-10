@@ -11,14 +11,11 @@ class ContactController extends Controller
 
 	public function index(): void
 	{
-		$sendMail = $this->sendMail() ;
-		echo $this->templates->render('contact',[
-			'sendMail' => $sendMail,
-		] );
+		echo $this->templates->render('contact');
 	}
 
 
-	public function sendMail()
+	public function send(): void
 	{
 		if(isset($_POST['email']) && $_POST['email'] !='')
 		{
@@ -27,14 +24,20 @@ class ContactController extends Controller
 				$name = $_POST['name'];
 				$email = $_POST['email'];
 				$message = $_POST['message'];
-				$to ="aaa@gmail.com";
-				mail($to, $email, $message);
+
+				$to ="mystroken@gmail.com";
+				$subject = "Message depuis eabusiness.africa";
+				$message = "Voici un message de test pour votre jolie et belle boite mail monsieur, madame.";
+				mail($to, $subject, $message);
+				echo "Mail envoyé !";
 			}
 		}
 		else
 		{
 			echo "champ de validation incorret !";
 		}
+
+		echo $this->templates->render('contact');
 	}
 
 }
