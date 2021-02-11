@@ -146,7 +146,19 @@ $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 								</h4>
 							</div>
 							<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExpertises">
-								Selon les estimations,d'ici 2050, la population africaine aura doublé pour atteindre 2,4 milliards de personnes. Aujourd’hui déjà, la demande pour des logements adéquats et des infrastructures connexes (routes, eau potable, etc.) est en forte demande. Au Nigeria seulement, 100 000 nouvelles maisons sont construites chaque année alors que la demande annuelle se situe à 700 000. Et cette problématique se retrouve dans plusieurs autres pays du.
+								Selon les estimations,d'ici 2050, la population africaine aura doublé pour atteindre 2,4 milliards de personnes. Aujourd’hui déjà, la demande pour des logements adéquats et des infrastructures connexes (routes, eau potable, etc.) est en forte demande. Au Nigeria seulement, 100 000 nouvelles maisons sont construites chaque année alors que la demande annuelle se situe à 700 000. Et cette problématique se retrouve dans plusieurs autres pays.
+							</div>
+						</li>
+						<li class="accordion__item">
+							<div class="accordion__header" id="headingEleven">
+								<h4 class="mb-0">
+									<a class="accordion__header__link collapsed" data-toggle="collapse" data-target="#collapseEleven" aria-controls="collapseEleven" aria-expanded="false">
+										Propriété Industrielle
+									</a>
+								</h4>
+							</div>
+							<div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExpertises">
+								L'accompagnement dans le cadre des procédures administratives pour l’obtention, le maintien, l’exploitation et la défense de vos droits de propriété industrielle.
 							</div>
 						</li>
 						<li class="accordion__item">
