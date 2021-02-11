@@ -22,20 +22,24 @@
 					Un Cabinet conseils en affaires
 				</h1>
 				<p class="content__body">
-					<strong>E&A Business Consulting Sarl</strong> est un cabinet d'études et de conseils en affaires avec pour focus l’Afrique centrale et en programmes de développement qui <strong>appuie</strong> et <strong>conseille</strong> les entreprises privées qui souhaitent entrer sur <strong>le marché africain.</strong> <br><br>
-					Il vient également en aide aux gouvernements locaux, régionaux et nationaux dans l’ <strong> élaboration de stratégies de développement économique</strong> qui améliorent leur environnement commercial et leur attractivité pour les investissements étrangers.
+					E&A Business Consulting Sarl est un cabinet conseils en affaires tourné vers l’Afrique, qui développe, appuie et conseil les entreprises qui souhaitent faire des affaires en Afrique.
+				<br><br>
+					Notre Cabinet accompagne également les autorités locales dans l’élaboration des stratégies de développement économique, en vue de l’amélioration de leur environnement commercial, et leur attractivité pour les investissements étrangers.
 				</p>
 			</div>
 			<div class="content">
 				<h4 class="content__title">Nos atouts</h4>
 				<p class="content__body">
-					E&A Business Consulting Sarl vous offre un ensemble d'atouts avantageux pour commencer du bon pied en Afrique Subsaharienne et transformer votre projet d'implémentation en une réalité créatrice de valeurs, dans les meilleures conditions et les plus brefs délais.
+					E&A Business Consulting Sarl vous offre un ensemble de services et prestations qui vous permette d’affronter en toute sérénité le marché africain, et de concrétiser votre projet d'implémentation en une réalité créatrice de valeurs.
 				</p>
 			</div>
 			<div class="content">
-				<h4 class="content__title">Nos valeurs</h4>
+				<h4 class="content__title">Notre équipe</h4>
 				<p class="content__body">
-					E&A Business Consulting Sarl développe une culture d'entreprise centrée sur la satisfaction de ses clients et de ses collaborateurs et sur l'atteinte des objectifs fixés dans le respect de valeurs de Qualité et d'Excellence.
+					Notre équipe est constitué d’une pléiade de professionnels hautement qualifiés et bilingues, avec une proximité culturelle, des liens étroits et bilatéraux avec l’Afrique.
+				</p>
+				<p>
+					<a class="btn btn-primary" href="<?= url('expertise'); ?>#equipe">En savoir plus</a>
 				</p>
 			</div>
 		</div>
