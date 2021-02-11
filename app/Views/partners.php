@@ -20,18 +20,17 @@ $this->layout('layouts/base', ['title' => 'Nos partenaires']) ?>
 			<div class="content">
 				<h1 class="content__title">Un carnet de consultants ayant fait leurs preuves</h1>
 				<div class="content__body">
-					<p>E&A Business Consulting dispose d’une liste de référence de partenaires de choix dont l’expertise
-						pourrait être nécessaire pendant l’exécution de certains de nos mandats. Nous avons travaillé avec eux à
-						de maintes occasions pour le compte de nos clients et ils ont fait leurs preuves. Il s’agit de :
+					<p>
+						E&A Business Consulting Sarl dispose d’une liste d’experts et partenaires qui sont mis à contribution dans le cadre de nos différentes missions, notamment dans les domaines ci-après :
 					</p>
 					<ul>
-						<li>Stratégistes et lobbyiste corporatifs</li>
-						<li>Juristes en droit international des affaires</li>
-						<li>Comptables et auditeurs</li>
-						<li>Experts en financiers et en levée de financement</li>
-						<li>Experts en fusion et acquisitions de sociétés</li>
-						<li>Consultants en santé et securité de travaille</li>
-						<li>Conseillers en gestion de la sécurité</li>
+						<li>Comptabilité et audits</li>
+						<li>Droit international des affaires</li>
+						<li>Droit et Propriété industrielle</li>
+						<li>Finance et levée de fonds</li>
+						<li>Fusion et acquisitions de sociétés</li>
+						<li>Gestion de la sécurité</li>
+						<li>Hygiène et santé et sécurité de travaille ▪ Stratégie et lobby corporatifs</li>
 					</ul>
 				</div>
 			</div>

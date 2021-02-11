@@ -30,16 +30,16 @@
 			<div class="content">
 				<h4 class="content__title">Nos atouts</h4>
 				<p class="content__body">
-					E&A Business Consulting Sarl vous offre un ensemble de services et prestations qui vous permette d’affronter en toute sérénité le marché africain, et de concrétiser votre projet d'implémentation en une réalité créatrice de valeurs.
+					E&A Business Consulting Sarl vous offre un ensemble de services et prestations qui vous permettent d’affronter en toute sérénité le marché africain, et de concrétiser votre projet d'implémentation en une réalité créatrice de valeurs.&nbsp;
+					<a class="" href="<?= url('expertise'); ?>">
+						En savoir plus sur nos service &rarr;
+					</a>
 				</p>
 			</div>
 			<div class="content">
 				<h4 class="content__title">Notre équipe</h4>
 				<p class="content__body">
 					Notre équipe est constitué d’une pléiade de professionnels hautement qualifiés et bilingues, avec une proximité culturelle, des liens étroits et bilatéraux avec l’Afrique.
-				</p>
-				<p>
-					<a class="btn btn-primary" href="<?= url('expertise'); ?>#equipe">En savoir plus</a>
 				</p>
 			</div>
 		</div>
