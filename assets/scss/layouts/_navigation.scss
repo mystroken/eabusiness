@@ -21,10 +21,12 @@
     display: flex;
     flex: 1;
     flex-direction: row !important;
-    justify-content: space-between !important;
     align-items: center !important;
     position: relative !important;
     background: transparent;
+  }
+  @include media-breakpoint-up('xl') {
+    justify-content: space-between !important;
   }
 
   .menu {

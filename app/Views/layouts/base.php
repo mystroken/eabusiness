@@ -63,7 +63,7 @@
 					</ul>
 					<div class="header__contact">
 						<a class="telephone" href="tel:+237 656 056 453">+237 656 056 453</a>
-						<a class="btn btn-primary" href="<?= url('contact'); ?>">Nous ecrire</a>
+						<a class="btn btn-primary" href="<?= url('contact'); ?>">Rencontrons-nous</a>
 					</div>
 				</nav>
 				<div class="hamburger-wrapper">
