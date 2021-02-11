@@ -29,40 +29,42 @@ $this->layout('layouts/base', []) ?>
 		<div class="section__inner">
 			<div class="home-vision__container">
 				<div class="content">
-					<h4 class="content__title">Notre vision</h4>
+					<h2 class="content__title">Notre vision</h2>
 					<div class="content__body">
-						<p>Créer des opportunités économiques entre les entreprises africaines et celles du reste du monde, tout en étant un acteur majeur de la croissance en Afrique.</p>
+						<p>
+							Créer des opportunités économiques entre les entreprises africaines et celles du reste du monde, tout en étant un acteur majeur de la croissance en Afrique.
+						</p>
+						<p>
+							<a href="<?= url('expertise'); ?>"><b>&rarr; Comment pourrions-nous vous accompagner?</b></a>
+						</p>
 					</div>
 				</div>
-				<div class="content">
-					<h4 class="content__title">Nos valeurs</h4>
-					<p class="content__body">
-						<ul>
-							<li><strong>Professionnalisme</strong> : Le professionnalisme est au cœur de notre culture d'entreprise. Notre équipe s'investi pleinement au quotidien dans le but d’apporter les réponses les mieux adaptées aux besoins de tous nos clients et partenaires. Notre professionnalisme implique une recherche de progrès constants</li>
-							<li><strong>Engagement</strong> : Nous travaillons avec dévouement et professionnalisme, en mettant le client au centre de nos priorités.</li>
-							<li><strong>Intégrité</strong> : L’intégrité et l’honnêteté sont les fils conducteurs de toutes nos activités. Elles dictent notre conduite professionnelle vis-à-vis de nos clients, nos collaborateurs et nos partenaires.</li>
-							<li><strong>Respect</strong> : Pour E&A Business Consulting Sarl, l’exemplarité passe avant tout par le respect de la diversité, des sensibilités, des points de vue, et s’en inspirer pour construire le présent avec optimisme et l’avenir avec audace.</li>
-						</ul>
-					</p>
-				</div>
-				<div class="content">
-					<h4 class="content__title">Notre mission</h4>
-					<p class="content__body">
-						E&A Business Consulting Sarl vise à créer un cadre d’échange multisectoriel entre les entreprises locales et étrangères.
-					</p>
-				</div>
-				<div class="content">
-					<p class="content__body">
-						<a class="btn btn-primary" href="/notre-expertise"><b>&rarr; Comment pourrions-nous vous accompagner?</b></a>
-					</p>
-				</div>
-				<!-- <figure class="home-vision__figure">
+				<figure class="home-vision__figure">
 					<img src="/img/man-in-a-taxi.jpg" alt="E&A Business Consulting" class="home-vision__img">
-				</figure> -->
+				</figure>
+			</div>
+			<div class="spacer"></div>
+			<div class="content">
+				<h2 class="content__title">Notre mission</h2>
+				<p class="content__body">
+					E&A Business Consulting Sarl vise à créer un cadre d’échange multisectoriel entre les entreprises locales et étrangères.
+				</p>
+			</div>
+			<div class="spacer"></div>
+			<div class="content">
+				<h2 class="content__title">Nos valeurs</h2>
+				<p class="content__body">
+					<ul>
+						<li><strong>Professionnalisme</strong> : Le professionnalisme est au cœur de notre culture d'entreprise. Notre équipe s'investi pleinement au quotidien dans le but d’apporter les réponses les mieux adaptées aux besoins de tous nos clients et partenaires. Notre professionnalisme implique une recherche de progrès constants</li>
+						<li><strong>Engagement</strong> : Nous travaillons avec dévouement et professionnalisme, en mettant le client au centre de nos priorités.</li>
+						<li><strong>Intégrité</strong> : L’intégrité et l’honnêteté sont les fils conducteurs de toutes nos activités. Elles dictent notre conduite professionnelle vis-à-vis de nos clients, nos collaborateurs et nos partenaires.</li>
+						<li><strong>Respect</strong> : Pour E&A Business Consulting Sarl, l’exemplarité passe avant tout par le respect de la diversité, des sensibilités, des points de vue, et s’en inspirer pour construire le présent avec optimisme et l’avenir avec audace.</li>
+					</ul>
+				</p>
 			</div>
 		</div>
 	</section>
-	<section class="section">
+	<!-- <section class="section">
 		<div class="section__inner">
 			<div class="content">
 				<h1 class="content__title">Message de la direction</h1>
@@ -77,5 +79,5 @@ $this->layout('layouts/base', []) ?>
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 </div>

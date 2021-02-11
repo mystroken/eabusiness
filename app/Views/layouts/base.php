@@ -34,7 +34,7 @@
 		<header id="header" class="header" role="banner" itemscope="" itemtype="http://schema.org/WPHeader">
 			<div class="header__inner">
 				<h1 class="header__brand" itemscope="" itemtype="http://schema.org/Organization">
-					<a href="<?= url('home'); ?>" itemprop="url" class="header__logo">
+					<a href="/" itemprop="url" class="header__logo">
 							<span class="original">
 								<img src="/img/e&a-business-consulting.png" itemprop="logo" alt="E&A Business Consulting Logo">
 							</span>
@@ -46,7 +46,7 @@
 				<nav id="navigation-primary" class="navigation-primary" role="navigation" aria-label="Navigation principale">
 					<ul class="menu" itemscope itemtype="https://schema.org/SiteNavigationElement">
 						<li class="menu-item" itemprop="name">
-							<a class="menu-link" itemprop="url" href="<?= url('home'); ?>">Accueil</a>
+							<a class="menu-link" itemprop="url" href="/">Accueil</a>
 						</li>
 						<li class="menu-item" itemprop="name">
 							<a class="menu-link" itemprop="url" href="<?= url('about'); ?>">Qui sommes-nous?</a>

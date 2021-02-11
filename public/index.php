@@ -51,10 +51,10 @@ $app = require __DIR__ . '/../bootstrap.php';
 */
 
 $app->get('/', 'HomeController@index')->name('home');
-$app->get('/a-propos/', 'AboutController@index')->name('about');
-$app->get('/notre-expertise/', 'ExpertiseController@index')->name('expertise');
-$app->get('/nos-partenaires/', 'PartnersController@index')->name('partners');
-$app->get('/nos-evenements/', 'EventController@index')->name('events');
+$app->get('/a-propos', 'AboutController@index')->name('about');
+$app->get('/notre-expertise', 'ExpertiseController@index')->name('expertise');
+$app->get('/nos-partenaires', 'PartnersController@index')->name('partners');
+$app->get('/nos-evenements', 'EventController@index')->name('events');
 $app->get('/contactez-nous', 'ContactController@index')->name('contact');
 $app->post('/contactez-nous', 'ContactController@send')->name('contact.send');
 
