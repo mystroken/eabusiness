@@ -18,12 +18,18 @@ $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 	<section class="section">
 		<div class="section__inner">
 			<div class="content">
-				<h1 class="content__title">Nos activités en Afrique et en Europe</h1>
 				<div class="content__body">
-					<p>Aujourd’hui de nouvelles dynamiques opèrent. L’Afrique participe de façon croissante aux échanges mondiaux, de nouvelles dynamiques intracontinentales se développent à grande vitesse, laissant apparaître l’émergence de marchés régionaux et les chaînes de valeurs se consolident.
+					<p>
+						Une nouvelle dynamique s’opère en Afrique et participe de façon croissante aux échanges mondiaux.
 					</p>
-					<p>L’explosion démographique et l’urbanisation rampante se conjuguent à la croissance de la demande alimentaire mondiale pour amorcer une révolution agricole longtemps attendue.</p>
-					<p>E&A Business Consulting Sarl veut prendre part au développement durable et à la promotion des nouvelles dynamiques transfrontalières, et c’est dans cette perspective que notre activité se concentre sur l’appui aux investisseurs.</p>
+					<p>
+						E&A Business Consulting Sarl veut prendre part au développement durable et à la promotion des nouvelles dynamiques transfrontalières.
+					</p>
+				</div>
+			</div>
+			<div class="content">
+				<h1 class="content__title">Nos domaines d’intervention</h1>
+				<div class="content__body">
 					<ul>
 						<li>La prospection de nouveaux marchés</li>
 						<li>L'identification d'opportunités d'affaires</li>
@@ -33,7 +39,7 @@ $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 						<li>La négoce international et le courtage en affaire</li>
 						<li>La gestion et la conduite de projet</li>
 						<li>La création et le pilotage de projet de développement</li>
-						<li>La mise en oeuvre et organisation de mission ciblées d'affaires ciblées sur l'Afrique.</li>
+						<li>La mise en œuvre et organisation de mission ciblées d'affaires ciblées sur l'Afrique.</li>
 					</ul>
 				</div>
 			</div>
@@ -60,42 +66,6 @@ $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 							</div>
 						</li>
 						<li class="accordion__item">
-							<div class="accordion__header" id="headingTwo">
-								<h4 class="mb-0">
-									<a class="accordion__header__link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-controls="collapseTwo" aria-expanded="false">
-										Exploitation minière
-									</a>
-								</h4>
-							</div>
-							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExpertises">
-								Le secteur des ressources minérales est bien connu, mais sous estimé. L'Afrique détient plus de la moitié des réserves mondiales d'or et de cobalt, 95% des réserves mondiales du groupes des platines, 90% des réserves de minerai de chrome, 85% des réserves de phosphate, et ce sans parler des grandes gisements de diamant, de cuivre et de fer.
-							</div>
-						</li>
-						<li class="accordion__item">
-							<div class="accordion__header" id="headingThree">
-								<h4 class="mb-0">
-									<a class="accordion__header__link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-controls="collapseThree" aria-expanded="false">
-										Technologie et innovation
-									</a>
-								</h4>
-							</div>
-							<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExpertises">
-								L'Afrique est actuellement au centre d’un essor technologique majeur qui génère des investissements importants. À tel point qu’on est aujourd’hui contraint d’aller recruter aux États-Unis pour répondre à la demande. Qui l’eut cru ?
-							</div>
-						</li>
-						<li class="accordion__item">
-							<div class="accordion__header" id="headingFour">
-								<h4 class="mb-0">
-									<a class="accordion__header__link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-controls="collapseFour" aria-expanded="false">
-										Logement
-									</a>
-								</h4>
-							</div>
-							<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExpertises">
-								Selon les estimations,d'ici 2050, la population africaine aura doublé pour atteindre 2,4 milliards de personnes. Aujourd’hui déjà, la demande pour des logements adéquats et des infrastructures connexes (routes, eau potable, etc.) est en forte demande. Au Nigeria seulement, 100 000 nouvelles maisons sont construites chaque année alors que la demande annuelle se situe à 700 000. Et cette problématique se retrouve dans plusieurs autres pays du.
-							</div>
-						</li>
-						<li class="accordion__item">
 							<div class="accordion__header" id="headingFive">
 								<h4 class="mb-0">
 									<a class="accordion__header__link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-controls="collapseFive" aria-expanded="false">
@@ -111,7 +81,7 @@ $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 							<div class="accordion__header" id="headingSix">
 								<h4 class="mb-0">
 									<a class="accordion__header__link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-controls="collapseSix" aria-expanded="false">
-										Economie d'energie et systemes d'énergies rénouvelables
+										Economie d'energie et systèmes d'énergies rénouvelables
 									</a>
 								</h4>
 							</div>
@@ -122,42 +92,6 @@ $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 									<li>Amélioration du facteur de puissance – Conception d'affichages (Sensibilisation en économie d'énergie)</li>
 									<li>Conseill dans l'acquisition et l'installation des systemes d'énergie renouvelable</li>
 								</ul>
-							</div>
-						</li>
-						<li class="accordion__item">
-							<div class="accordion__header" id="headingSeven">
-								<h4 class="mb-0">
-									<a class="accordion__header__link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-controls="collapseSeven" aria-expanded="false">
-										Tourisme
-									</a>
-								</h4>
-							</div>
-							<div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExpertises">
-								Les plus beaux paysages se trouvent en Afrique mais demeurent malheureusement des screts bien gardés. Le trourisme est un secteur d'intérêt pour les dirigeants africains, car il est en croissance rapide et génèrent de nombreux emplois pour des travailleurs non qualifiés. C'est également un secteur à fort potentiel de convergence avec d'autres secteurs économiques.
-							</div>
-						</li>
-						<li class="accordion__item">
-							<div class="accordion__header" id="headingEight">
-								<h4 class="mb-0">
-									<a class="accordion__header__link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-controls="collapseEight" aria-expanded="false">
-										Infrastructures publiques
-									</a>
-								</h4>
-							</div>
-							<div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExpertises">
-								Il existe un lien solide entre l'urbanisation et la croissance économique et, avec le taux d’urbanisation le plus rapide au monde, l’Afrique a besoin d’infrastructures publiques essentielles (routes, ports, rails, distribution d’électricité et d’eaux et traitement des eaux usées, etc..)
-							</div>
-						</li>
-						<li class="accordion__item">
-							<div class="accordion__header" id="headingNine">
-								<h4 class="mb-0">
-									<a class="accordion__header__link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-controls="collapseNine" aria-expanded="false">
-										Santé
-									</a>
-								</h4>
-							</div>
-							<div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExpertises">
-								Le domaine de la santé du secteur privé en Afrique Subsaharienne fournit une plate-forme étendue pour l'investissement. En ligne avec les tendances mondiales, la demande de soins de santé locaux en Afrique continue de gagner en importance.
 							</div>
 						</li>
 						<li class="accordion__item">
@@ -177,6 +111,78 @@ $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 									<li>Bilan Carbone(Inventaire d'émmisions de Gaz à effet de serre(GES))</li>
 									<li>QHSE(Audit Interne/ Préparation à la certification/Formation et Renforcement de capacités)</li>
 								</ul>
+							</div>
+						</li>
+						<li class="accordion__item">
+							<div class="accordion__header" id="headingTwo">
+								<h4 class="mb-0">
+									<a class="accordion__header__link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-controls="collapseTwo" aria-expanded="false">
+										Exploitation minière
+									</a>
+								</h4>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExpertises">
+								Le secteur des ressources minérales est bien connu, mais sous estimé. L'Afrique détient plus de la moitié des réserves mondiales d'or et de cobalt, 95% des réserves mondiales du groupes des platines, 90% des réserves de minerai de chrome, 85% des réserves de phosphate, et ce sans parler des grandes gisements de diamant, de cuivre et de fer.
+							</div>
+						</li>
+						<li class="accordion__item">
+							<div class="accordion__header" id="headingEight">
+								<h4 class="mb-0">
+									<a class="accordion__header__link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-controls="collapseEight" aria-expanded="false">
+										Infrastructures publiques
+									</a>
+								</h4>
+							</div>
+							<div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExpertises">
+								Il existe un lien solide entre l'urbanisation et la croissance économique et, avec le taux d’urbanisation le plus rapide au monde, l’Afrique a besoin d’infrastructures publiques essentielles (routes, ports, rails, distribution d’électricité et d’eaux et traitement des eaux usées, etc..)
+							</div>
+						</li>
+						<li class="accordion__item">
+							<div class="accordion__header" id="headingFour">
+								<h4 class="mb-0">
+									<a class="accordion__header__link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-controls="collapseFour" aria-expanded="false">
+										Logement
+									</a>
+								</h4>
+							</div>
+							<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExpertises">
+								Selon les estimations,d'ici 2050, la population africaine aura doublé pour atteindre 2,4 milliards de personnes. Aujourd’hui déjà, la demande pour des logements adéquats et des infrastructures connexes (routes, eau potable, etc.) est en forte demande. Au Nigeria seulement, 100 000 nouvelles maisons sont construites chaque année alors que la demande annuelle se situe à 700 000. Et cette problématique se retrouve dans plusieurs autres pays du.
+							</div>
+						</li>
+						<li class="accordion__item">
+							<div class="accordion__header" id="headingNine">
+								<h4 class="mb-0">
+									<a class="accordion__header__link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-controls="collapseNine" aria-expanded="false">
+										Santé
+									</a>
+								</h4>
+							</div>
+							<div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExpertises">
+								Le domaine de la santé du secteur privé en Afrique Subsaharienne fournit une plate-forme étendue pour l'investissement. En ligne avec les tendances mondiales, la demande de soins de santé locaux en Afrique continue de gagner en importance.
+							</div>
+						</li>
+						<li class="accordion__item">
+							<div class="accordion__header" id="headingThree">
+								<h4 class="mb-0">
+									<a class="accordion__header__link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-controls="collapseThree" aria-expanded="false">
+										Technologie et innovation
+									</a>
+								</h4>
+							</div>
+							<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExpertises">
+								L'Afrique est actuellement au centre d’un essor technologique majeur qui génère des investissements importants. À tel point qu’on est aujourd’hui contraint d’aller recruter aux États-Unis pour répondre à la demande. Qui l’eut cru ?
+							</div>
+						</li>
+						<li class="accordion__item">
+							<div class="accordion__header" id="headingSeven">
+								<h4 class="mb-0">
+									<a class="accordion__header__link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-controls="collapseSeven" aria-expanded="false">
+										Tourisme
+									</a>
+								</h4>
+							</div>
+							<div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExpertises">
+								Les plus beaux paysages se trouvent en Afrique mais demeurent malheureusement des screts bien gardés. Le trourisme est un secteur d'intérêt pour les dirigeants africains, car il est en croissance rapide et génèrent de nombreux emplois pour des travailleurs non qualifiés. C'est également un secteur à fort potentiel de convergence avec d'autres secteurs économiques.
 							</div>
 						</li>
 					</ol>

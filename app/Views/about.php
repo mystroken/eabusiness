@@ -50,8 +50,8 @@
 				<div class="content">
 					<h1 class="content__title">Notre Cabinet</h1>
 					<p class="content__body">
-						E&A Business Consulting Sarl est une société basée au <strong>Cameroun</strong> avec une réprésentation en <strong>Autriche</strong>, nous sommes trilingues (anglais, français et allemand) avec une portée continentale.
-	Avec une proximité culturelle, des liens étroits et bilatéraux avec l’Afrique, notre réseau de contacts clés sur le continent et une pléiade de professionnels hautement qualifiés et bilingues, E&A Business Consulting Sarl est particulièrement bien placée pour être<strong> votre conseiller</strong>, <strong>votre guide</strong> et <strong>votre facilitateur</strong>.
+						E&A Business Consulting Sarl est une société basée au <strong>Cameroun</strong> avec une réprésentation en <strong>Autriche</strong>, nous sommes trilingues (anglais, français et allemand) avec une portée continentale.<br>
+						Avec une proximité culturelle, des liens étroits et bilatéraux avec l’Afrique, notre réseau de contacts clés sur le continent et une pléiade de professionnels hautement qualifiés et bilingues, E&A Business Consulting Sarl est particulièrement bien placée pour être<strong> votre conseiller</strong>, <strong>votre guide</strong> et <strong>votre facilitateur</strong>.
 					</p>
 				</div>
 				<figure class="about-section__figure">
