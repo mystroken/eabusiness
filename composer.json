@@ -1,9 +1,9 @@
 {
-    "name": "mystroken/eabusiness",
+    "name": "mystroken/aebusiness",
     "type": "project",
     "license": "MIT",
     "require": {
-        "php": "^7.1",
+        "php": "^8.1",
         "league/plates": "3.*",
         "voku/html-min": "^4.0",
         "ext-pdo": "*",

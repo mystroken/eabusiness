@@ -27,7 +27,7 @@
 	<meta name="msapplication-TileColor" content="#002F61">
 	<meta name="theme-color" content="#002F61">
 
-	<style><?php include path('public/css/style.css'); ?></style>
+	<style><?php if(file_exists(path('public/css/style.css'))) include path('public/css/style.css'); ?></style>
 </head>
 <body>
 	<div id="site" role="document" itemscope="" itemtype="http://schema.org/WebPage">
@@ -154,6 +154,6 @@
 		</footer>
 	</div>
 	<div id="loader" class="loader"></div>
-	<script><?php include path('public/js/app.js'); ?></script>
+	<script><?php if(file_exists(path('public/js/app.js'))) include path('public/js/app.js'); ?></script>
 </body>
 </html>
