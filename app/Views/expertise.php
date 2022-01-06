@@ -305,7 +305,7 @@ $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 				</div> -->
 				<div class="card">
 					<figure class="team__figure">
-						<img class="team__img" src="/img/caroussel/me-medjo-effa-james-sylvain.jpeg" alt="Card image cap">
+						<img class="team__img" src="/img/team/me-medjo-effa-james-sylvain.jpeg" alt="Card image cap">
 					</figure>
 					<div class="card-body">
 						<h5 class="card-title text-center">Maitre MEDJO EFFA James Sylvain</h5>
