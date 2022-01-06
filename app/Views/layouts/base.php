@@ -62,7 +62,7 @@
 						</li>
 					</ul>
 					<div class="header__contact">
-						<a class="telephone" href="tel:+237 656 056 453">+237 656 056 453</a>
+						<a class="telephone" href="tel:+430656486832">+43 065 6486832</a>
 						<a class="btn btn-primary" href="<?= url('contact'); ?>">Rencontrons-nous</a>
 					</div>
 				</nav>
@@ -149,7 +149,7 @@
 				</nav>
 			</div>
 			<div class="footer__copyright">
-				Copyright © 2021 A&E Business Consulting  — Site conçu par <a target="_blank" href="https://www.flexyla.com">FlexyLa Studio</a>
+				Copyright © 2022 A&E Business Consulting  — Site conçu par <a target="_blank" href="https://www.flexyla.com">FlexyLa Studio</a>
 			</div>
 		</footer>
 	</div>
