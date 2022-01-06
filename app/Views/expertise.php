@@ -278,7 +278,7 @@ $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 			<div class="team-grid">
 				<div class="card">
 					<figure class="team__figure">
-						<img class="team__img" src="/img/team/jean-baptiste-fouda-atangana.jpeg" alt="Jean Baptiste FOUDA ATANGANA">
+						<img class="team__img" src="/img/team/jean-baptiste.jpeg" alt="Jean Baptiste FOUDA ATANGANA">
 					</figure>
 					<div class="card-body">
 						<h5 class="card-title text-center">Jean Baptiste FOUDA ATANGANA</h5>
@@ -287,10 +287,10 @@ $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 				</div>
 				<div class="card">
 					<figure class="team__figure">
-						<img class="team__img" src="/img/team/yannick-barnabe-mebada-ekani.jpeg" alt="Yannick Barnabé MEBADA EKANI">
+						<img class="team__img" src="/img/team/adrienne.jpeg" alt="Yannick Barnabé MEBADA EKANI">
 					</figure>
 					<div class="card-body">
-						<h5 class="card-title text-center">Yannick Barnabé MEBADA EKANI</h5>
+						<h5 class="card-title text-center">Adrienne ESSONO</h5>
 						<p class="card-text text-center">Chief Financial Officer</p>
 					</div>
 				</div>
@@ -305,10 +305,10 @@ $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 				</div> -->
 				<div class="card">
 					<figure class="team__figure">
-						<img class="team__img" src="/img/caroussel/eabusiness_caroussel_cover-1.jpeg" alt="Card image cap">
+						<img class="team__img" src="/img/caroussel/me-medjo-effa-james-sylvain.jpeg" alt="Card image cap">
 					</figure>
 					<div class="card-body">
-						<h5 class="card-title text-center">Maitre FOUDA</h5>
+						<h5 class="card-title text-center">Maitre MEDJO EFFA James Sylvain</h5>
 						<p class="card-text text-center">Affaire Juridique</p>
 					</div>
 				</div>
