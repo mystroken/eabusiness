@@ -21,7 +21,7 @@ $this->layout('layouts/base', ['title' => 'Nos partenaires']) ?>
 				<h1 class="content__title">Un carnet de consultants ayant fait leurs preuves</h1>
 				<div class="content__body">
 					<p>
-						E&A Business Consulting Sarl dispose d’une liste d’experts et partenaires qui sont mis à contribution dans le cadre de nos différentes missions, notamment dans les domaines ci-après :
+						A&E Business Consulting Sarl dispose d’une liste d’experts et partenaires qui sont mis à contribution dans le cadre de nos différentes missions, notamment dans les domaines ci-après :
 					</p>
 					<ul>
 						<li>Comptabilité et audits</li>
