@@ -96,9 +96,9 @@
 						<span itemprop="postalCode">B.P 4633</span>
 						<span itemprop="addressLocality">Yaoundé</span>
 					</div>
-					<div itemprop="telephone">(237) 656056453</div>
+					<div itemprop="telephone">(43) 065 6486832</div>
 					<div itemprop="telephone">(43) 664 5646435</div>
-					<div itemprop="email">info@eabusiness.africa</div>
+					<div itemprop="email">info@aebusiness.cm</div>
 				</div>
 				<nav class="navigation-secondary d-md-flex justify-content-center w-100 mt-5 mt-lg-0">
 					<div class="footer__nav__item">
