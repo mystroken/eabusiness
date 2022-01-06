@@ -36,7 +36,7 @@
 				<h1 class="header__brand" itemscope="" itemtype="http://schema.org/Organization">
 					<a href="/" itemprop="url" class="header__logo">
 							<span class="original">
-								<img src="/img/A&E-business-consulting.png" itemprop="logo" alt="A&E Business Consulting Logo">
+								<img src="/img/a&e-business-consulting.png" itemprop="logo" alt="A&E Business Consulting Logo">
 							</span>
 						<span class="light">
 								<img src="/img/A&E-business-consulting-light.png" alt="A&E Business Consulting Light logo">
