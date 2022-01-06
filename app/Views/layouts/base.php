@@ -39,7 +39,7 @@
 								<img src="/img/a&e-business-consulting.png" itemprop="logo" alt="A&E Business Consulting Logo">
 							</span>
 						<span class="light">
-								<img src="/img/A&E-business-consulting-light.png" alt="A&E Business Consulting Light logo">
+								<img src="/img/a&e-business-consulting-light.png" alt="A&E Business Consulting Light logo">
 							</span>
 					</a>
 				</h1>
@@ -83,7 +83,7 @@
 
 		<footer id="footer" class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
 			<div class="footer__logo text-center text-lg-left">
-				<img src="/img/A&E-business-consulting-light.png" alt="A&E Business Consulting">
+				<img src="/img/a&e-business-consulting-light.png" alt="A&E Business Consulting">
 			</div>
 			<div class="footer__content d-lg-flex text-center text-lg-left">
 				<div class="footer__info mx-auto mx-lg-0" itemscope itemtype="https://schema.org/Organization">
