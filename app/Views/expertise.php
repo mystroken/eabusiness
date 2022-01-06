@@ -23,7 +23,7 @@ $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 						Une nouvelle dynamique s’opère en Afrique et participe de façon croissante aux échanges mondiaux.
 					</p>
 					<p>
-						E&A Business Consulting Sarl veut prendre part au développement durable et à la promotion des nouvelles dynamiques transfrontalières.
+						A&E Business Consulting Sarl veut prendre part au développement durable et à la promotion des nouvelles dynamiques transfrontalières.
 					</p>
 				</div>
 			</div>
@@ -209,7 +209,7 @@ $this->layout('layouts/base', ['title' => 'Notre Expertise']) ?>
 				<h1 class="content__title">Notre méthodologie d'intervention</h1>
 				<div class="content__body">
 					<p>Vous souhaitez intégrer l’Afrique dans votre réseau mondial, vous souhaitez conserver une avance concurrentielle, l’équilibre entre le risque et la recherche de croissance reste cependant une question centrale ?</p>
-					<p>E&A Business Consulting se positionne comme votre point d’entrée sur le continent</p>
+					<p>A&E Business Consulting se positionne comme votre point d’entrée sur le continent</p>
 					<ul>
 						<li>En vous aidant à contrôler les risques spécifiques liés à vos projets</li>
 						<li>En définissant une stratégie adaptée</li>
