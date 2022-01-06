@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<?php $title = isset($title)? $title . ' -  E&A Business Consulting' : 'E&A Business Consulting, votre cabinet d\'études et conseils.'; ?>
+	<?php $title = isset($title)? $title . ' -  A&E Business Consulting' : 'A&E Business Consulting, votre cabinet d\'études et conseils.'; ?>
 	<title><?=$this->e($title)?></title>
 	<meta name="description" content="<?=$this->e($description ?? '')?>">
 
@@ -36,10 +36,10 @@
 				<h1 class="header__brand" itemscope="" itemtype="http://schema.org/Organization">
 					<a href="/" itemprop="url" class="header__logo">
 							<span class="original">
-								<img src="/img/e&a-business-consulting.png" itemprop="logo" alt="E&A Business Consulting Logo">
+								<img src="/img/A&E-business-consulting.png" itemprop="logo" alt="A&E Business Consulting Logo">
 							</span>
 						<span class="light">
-								<img src="/img/e&a-business-consulting-light.png" alt="E&A Business Consulting Light logo">
+								<img src="/img/A&E-business-consulting-light.png" alt="A&E Business Consulting Light logo">
 							</span>
 					</a>
 				</h1>
@@ -83,11 +83,11 @@
 
 		<footer id="footer" class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
 			<div class="footer__logo text-center text-lg-left">
-				<img src="/img/e&a-business-consulting-light.png" alt="E&A Business Consulting">
+				<img src="/img/A&E-business-consulting-light.png" alt="A&E Business Consulting">
 			</div>
 			<div class="footer__content d-lg-flex text-center text-lg-left">
 				<div class="footer__info mx-auto mx-lg-0" itemscope itemtype="https://schema.org/Organization">
-					<span itemprop="name">E&A Business Consulting SARL</span>
+					<span itemprop="name">A&E Business Consulting SARL</span>
 					<p>
 						Un cabinet d'études et de conseils en affaires avec pour focus l’Afrique centrale et en programmes de développement qui appuie et conseille les entreprises privées qui souhaitent entrer sur le marché africain.
 					</p>
@@ -149,7 +149,7 @@
 				</nav>
 			</div>
 			<div class="footer__copyright">
-				Copyright © 2021 E&A Business Consulting  — Site conçu par <a target="_blank" href="https://www.flexyla.com">FlexyLa Studio</a>
+				Copyright © 2021 A&E Business Consulting  — Site conçu par <a target="_blank" href="https://www.flexyla.com">FlexyLa Studio</a>
 			</div>
 		</footer>
 	</div>
