@@ -11,13 +11,13 @@ $this->layout('layouts/base', []) ?>
 		<div class="container">
 			<div class="hero__content">
 				<div class="hero__subtitle">
-					Bienvenue chez E&A Business Consulting Sarl
+					Bienvenue chez A&E Business Consulting Sarl
 				</div>
 				<h1 class="hero__title">
 					Comprendre la culture, les mentalités et le monde des affaires en Afrique est primordial pour réussir
 				</h1>
 				<div class="hero__copy">
-					E&A Business Consulting Sarl vous accompagne à chaque étape pour le développement de votre business en Afrique.
+					A&E Business Consulting Sarl vous accompagne à chaque étape pour le développement de votre business en Afrique.
 				</div>
 				<div class="hero__actions">
 					<a class="btn btn-secondary" href="/notre-expertise">En savoir plus</a>
@@ -40,14 +40,14 @@ $this->layout('layouts/base', []) ?>
 					</div>
 				</div>
 				<figure class="home-vision__figure">
-					<img src="/img/man-in-a-taxi.jpg" alt="E&A Business Consulting" class="home-vision__img">
+					<img src="/img/man-in-a-taxi.jpg" alt="A&E Business Consulting" class="home-vision__img">
 				</figure>
 			</div>
 			<div class="spacer"></div>
 			<div class="content">
 				<h2 class="content__title">Notre mission</h2>
 				<p class="content__body">
-					E&A Business Consulting Sarl vise à créer un cadre d’échange multisectoriel entre les entreprises locales et étrangères.
+					A&E Business Consulting Sarl vise à créer un cadre d’échange multisectoriel entre les entreprises locales et étrangères.
 				</p>
 			</div>
 			<div class="spacer"></div>
@@ -58,7 +58,7 @@ $this->layout('layouts/base', []) ?>
 						<li><strong>Professionnalisme</strong> : Le professionnalisme est au cœur de notre culture d'entreprise. Notre équipe s'investi pleinement au quotidien dans le but d’apporter les réponses les mieux adaptées aux besoins de tous nos clients et partenaires. Notre professionnalisme implique une recherche de progrès constants</li>
 						<li><strong>Engagement</strong> : Nous travaillons avec dévouement et professionnalisme, en mettant le client au centre de nos priorités.</li>
 						<li><strong>Intégrité</strong> : L’intégrité et l’honnêteté sont les fils conducteurs de toutes nos activités. Elles dictent notre conduite professionnelle vis-à-vis de nos clients, nos collaborateurs et nos partenaires.</li>
-						<li><strong>Respect</strong> : Pour E&A Business Consulting Sarl, l’exemplarité passe avant tout par le respect de la diversité, des sensibilités, des points de vue, et s’en inspirer pour construire le présent avec optimisme et l’avenir avec audace.</li>
+						<li><strong>Respect</strong> : Pour A&E Business Consulting Sarl, l’exemplarité passe avant tout par le respect de la diversité, des sensibilités, des points de vue, et s’en inspirer pour construire le présent avec optimisme et l’avenir avec audace.</li>
 					</ul>
 				</p>
 			</div>
